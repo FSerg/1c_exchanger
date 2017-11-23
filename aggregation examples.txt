@@ -1,0 +1,75 @@
+
+db.getCollection('docsinvoicedrugstores').aggregate([
+    // each Object is an aggregation.
+    {   $sort: {moment_of_changes: -1}
+        $group: {
+            originalId: {$first: '$_id'}, // Hold onto original ID.
+            _id: '$id_doc', // Set the unique identifier
+            moment_of_changes:  {$first: '$moment_of_changes'},
+            number: {$first: '$number'}
+        }
+
+    }, {
+        // this receives the output from the first aggregation.
+        // So the (originally) non-unique 'id' field is now
+        // present as the _id field. We want to rename it.
+        $project:{
+            _id : '$originalId', // Restore original ID.
+
+            id  : '$_id', //
+            moment_of_changes : '$moment_of_changes',
+            number : '$number'
+        }
+    }
+])
+
+
+// ONE
+db.getCollection('docsinvoicedrugstores').aggregate([
+  { $sort: {moment_of_changes: -1}},
+  {$group : {
+        "_id" : "$id_doc",
+        "docs" : {
+            $first : {
+            "id": "$_id",
+            "number" : "$number",
+            "moment_of_changes" : "$moment_of_changes"
+            }
+        }
+    }
+  }
+])
+
+// TWO
+db.getCollection('docsinvoicedrugstores').aggregate([
+  { $sort: {moment_of_changes: -1}},
+  {$group : {
+        originalId: {$first: '$_id'},
+        "_id" : "$id_doc"
+    }
+  }
+])
+
+// THREE
+db.getCollection('docsinvoicedrugstores').aggregate([
+
+  { $sort: {moment_of_changes: -1}},
+  {$group : {
+        originalId: {$first: '$_id'},
+        "_id" : "$id_doc"
+    }
+  },
+  { $lookup:
+      {
+        from: "docsinvoicedrugstores",
+        localField: "originalId",
+        foreignField: "_id",
+        as: "original_doc"
+      }
+  },
+  { $project:
+      {
+          "original_doc.positions":0
+      }
+  }
+])

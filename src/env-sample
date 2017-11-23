@@ -1,0 +1,5 @@
+PORT=5000
+DB_NAME=db1
+DB_HOST=localhost
+DB_PORT=27017
+JWT_SECRET=2quYAJo46Xb0Mi8skjdfSDsdlkjfsSSlkjsdb5745sdf
