@@ -17,6 +17,11 @@ app.use(bodyParser.json());
 // routes
 app.use('/api/drugstores', DocsDrugstoreRoutes);
 
+// test route
+app.get('/test', (req, res) => {
+  res.status(200).send({ result: 'GET: /test' });
+});
+
 app.listen(config.port, () =>
   console.log(`Server running (port: ${config.port})`)
 );
