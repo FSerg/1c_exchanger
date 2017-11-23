@@ -18,5 +18,7 @@ ENV NODE_ENV production
 # Generate production files
 RUN yarn build
 
+EXPOSE $PORT
+
 # The command to run our app when the container is run
 CMD ["yarn", "start"]
