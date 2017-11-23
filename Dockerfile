@@ -1,16 +1,22 @@
-# This image will be based on the oficial nodejs docker image
-FROM node:latest
-
-RUN apt-get update && apt-get install -y
+FROM node:alpine
 
 # Commands will run in this directory
-WORKDIR /home/app
+WORKDIR /app
 
-# Add all our code inside that directory that lives in the container
-ADD . /home/app
-
-# Install dependencies and generate production files
+# Install app dependencies
+COPY package.json /app
 RUN yarn install
 
+# Add all our code inside that directory that lives in the container
+ADD . /app
+
+# ARG NODE_ENV=production
+# ENV NODE_ENV=$NODE_ENV
+# Set environment variables
+ENV NODE_ENV production
+
+# Generate production files
+RUN yarn build
+
 # The command to run our app when the container is run
-CMD ["yarn", "run", "start"]
+CMD ["yarn", "start"]
