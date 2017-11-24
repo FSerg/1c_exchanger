@@ -29,6 +29,7 @@ const docSchema = new Schema({
       _id: false,
       product: String,
       product_code: String,
+      vital: Boolean,
       ean: [
         {
           _id: false,
