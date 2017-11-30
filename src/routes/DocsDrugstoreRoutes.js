@@ -3,13 +3,29 @@ import express from 'express';
 import bearer from '../middlewares/bearer';
 
 import DocsInvoiceDrugstore from '../models/DocsInvoiceDrugstore';
+import DocsReceiptsDrugstore from '../models/DocsReceiptsDrugstore';
 
 const router = express.Router();
 
-// app.get('/api/surveys', requireCredits, async (req, res) => {
+router.post('/invoices', bearer, (req, res) => {
+  // console.log('Invoices from 1C:');
+  // console.log(req.body);
+
+  const newInvoiceDoc = new DocsInvoiceDrugstore(req.body);
+  newInvoiceDoc.save(err => {
+    if (err) {
+      console.error(err);
+      res.status(400).send({ result: 'error' });
+    } else {
+      // console.log('Invoices DONE!');
+      res.status(200).send({ result: 'success' });
+    }
+  });
+});
+
 router.get('/invoices', bearer, (req, res) => {
-  console.log('GET!');
-  // console.log(req.query);
+  console.log('GET Invoices!');
+  console.log(req.query);
 
   if (req.query === undefined) {
     const errorMessage = 'Empty query to get Invoices from Drugstore!';
@@ -43,20 +59,55 @@ router.get('/invoices', bearer, (req, res) => {
     });
 });
 
-router.post('/invoices', bearer, (req, res) => {
-  // console.log('data from 1C:');
+router.post('/receipts', bearer, (req, res) => {
+  // console.log('Receipts from 1C:');
   // console.log(req.body);
 
-  const newInvoiceDoc = new DocsInvoiceDrugstore(req.body);
-  newInvoiceDoc.save(err => {
+  const newReceiptsDoc = new DocsReceiptsDrugstore(req.body);
+  newReceiptsDoc.save(err => {
     if (err) {
       console.error(err);
       res.status(400).send({ result: 'error' });
     } else {
-      // console.log('DONE!');
+      // console.log('Receipts DONE!');
       res.status(200).send({ result: 'success' });
     }
   });
+});
+
+router.get('/receipts', bearer, (req, res) => {
+  console.log('GET Receipts!');
+  console.log(req.query);
+
+  if (req.query === undefined) {
+    const errorMessage = 'Empty query to get Receipts from Drugstore!';
+    console.error(errorMessage);
+    res.status(400).send({ result: errorMessage });
+  }
+
+  const data1 = new Date(req.query.date_begin);
+  const data2 = new Date(req.query.date_end);
+
+  DocsReceiptsDrugstore.aggregate()
+    .match({ date: { $gte: data1, $lt: data2 } })
+    .sort({ moment_of_changes: -1 })
+    .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
+    .lookup({
+      from: 'docsreceiptsdrugstores',
+      localField: 'originalId',
+      foreignField: '_id',
+      as: 'original_doc'
+    })
+    .exec((err, results) => {
+      if (err) {
+        console.error(err);
+        res.status(400).send({ result: err });
+      } else {
+        res.status(200).send({
+          result: results.map(item => item.original_doc[0])
+        });
+      }
+    });
 });
 
 export default router;
