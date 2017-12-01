@@ -1,0 +1,4035 @@
+{
+  "id_doc": "11376c60-d483-11e7-b2ff-409f381626c8",
+  "date": "2017-11-28T19:40:23",
+  "number": "1100005433",
+  "deleting_mark": "false",
+  "recognized": "true",
+  "moment_of_changes": "2017-12-01T11:59:02",
+  "user": "Провизор",
+  "head": {
+    "number_in": "",
+    "date_in": "2017-11-28T00:00:00",
+    "organization_inn": "231905696976",
+    "partner": "Интел",
+    "partner_inn": "2312010304",
+    "partner_kpp": "",
+    "contract": "Осн. договор (поставщик)",
+    "contract_number": "",
+    "contract_date": "01.01.0001 0:00:00",
+    "shop": "Аптека-3 Супсехское шоссе",
+    "undocumented": "false",
+    "summa_doc_purchase": "73360.17",
+    "summa_doc_retail": "95765"
+  },
+  "positions": [{
+    "product": "ХАЙНЦ   ВЕРМИШЕЛЬКА Фигурки {c 10 мес} 340г. {33070}",
+    "product_code": "08001814",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030030"
+    }],
+    "count": "1",
+    "summa_purchase": "113",
+    "summa_retail": "137"
+  }, {
+    "product": "ХАЙНЦ   ВЕРМИШЕЛЬКА Звездочки {c 10 мес} 340г. {33072}",
+    "product_code": "08001815",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030047"
+    }],
+    "count": "1",
+    "summa_purchase": "113",
+    "summa_retail": "137"
+  }, {
+    "product": "ЛЮБОПЫШКА Кашка Многозерновая Слива, Яблоко, Малина, Черника с Йогуртом {c 12 мес} 200г. {49226}",
+    "product_code": "08001800",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030054"
+    }],
+    "count": "1",
+    "summa_purchase": "123",
+    "summa_retail": "149"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Овсянка Груша Банан Биф. {с 6 мес} 220г. {72143}",
+    "product_code": "11000802",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030061"
+    }],
+    "count": "1",
+    "summa_purchase": "127.28",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Безмолочная Гречневая с Черносливом {с 4 мес} 200г. {59444}",
+    "product_code": "08009355",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030078"
+    }],
+    "count": "1",
+    "summa_purchase": "113.48",
+    "summa_retail": "137"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Мультизлаковая с Кусочками Банана и Земляники Биф {с 8 мес} 220г. {72494}",
+    "product_code": "11000803",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030085"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Гречневая {с 4 мес} 250г. {59455}",
+    "product_code": "08009357",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030092"
+    }],
+    "count": "1",
+    "summa_purchase": "134.79",
+    "summa_retail": "163"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Овсяная с Яблоком {с 5 мес} 220г. {72493}",
+    "product_code": "11000804",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030108"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Гречневая с Курагой {с 5 мес} 220г. {72496}",
+    "product_code": "11000805",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030115"
+    }],
+    "count": "1",
+    "summa_purchase": "134.79",
+    "summa_retail": "163"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Рисовая  {с 4 мес} 250г. {67625}",
+    "product_code": "08009360",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030122"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Пшеничная с Кусочками Яблока и Земляникой {с 8 мес} 220г. {72222}",
+    "product_code": "11000806",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030139"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Мультизлаковая с Яблоком и Бананом {с 6 мес} 250г. {59457}",
+    "product_code": "08009361",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030146"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Мультизлаковая с Медом и Кусочками Абрикоса {с 9 мес} 220г. {72269}",
+    "product_code": "11000807",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030153"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Молочная Кукурузная {с 5 мес} 250г. {63073}",
+    "product_code": "08009362",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030160"
+    }],
+    "count": "1",
+    "summa_purchase": "127.52",
+    "summa_retail": "154"
+  }, {
+    "product": "НЕСТЛЕ Каша Безмолочная 5 Злаков (Мультизлаковая)  {с 6 мес} 200г. {65477}",
+    "product_code": "11000808",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030177"
+    }],
+    "count": "1",
+    "summa_purchase": "106.79",
+    "summa_retail": "129"
+  }, {
+    "product": "НЕСТЛЕ Каша Безмолочная Кукурузная {с 5 мес} 200г. {62515}",
+    "product_code": "08009363",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030184"
+    }],
+    "count": "1",
+    "summa_purchase": "106.79",
+    "summa_retail": "129"
+  }, {
+    "product": "НЕСТЛЕ  Каша ПОМОГАЙКА 5 Злаков Липовый Цвет б/м Биф. {с 6 мес} 200г. {59558}",
+    "product_code": "11000809",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030191"
+    }],
+    "count": "1",
+    "summa_purchase": "159.38",
+    "summa_retail": "192"
+  }, {
+    "product": "ЛЮБОПЫШКА Кашка Многозерновая Слива, Морковь, Вишня, Ч.Смородина с Молоком {c 12 мес} 200г. {49227}",
+    "product_code": "08001801",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030207"
+    }],
+    "count": "1",
+    "summa_purchase": "122.8",
+    "summa_retail": "149"
+  }, {
+    "product": "ЛЮБОПЫШКА Кашка Многозерновая  Слива, Абрикос, Черника с Молоком {c 12 мес} 200г. {32730}",
+    "product_code": "08001802",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030214"
+    }],
+    "count": "1",
+    "summa_purchase": "122.8",
+    "summa_retail": "149"
+  }, {
+    "product": "ЛЮБОПЫШКА Кашка Многозерновая  Банан, Клубника с Йогуртом {c 12 мес} 200г. {34259}",
+    "product_code": "08001803",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030221"
+    }],
+    "count": "1",
+    "summa_purchase": "122.8",
+    "summa_retail": "148"
+  }, {
+    "product": "ХАЙНЦ Кашка Овсяная с Бананом с Молоком {c 6 мес} 250г. {3047}",
+    "product_code": "08001804",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030238"
+    }],
+    "count": "1",
+    "summa_purchase": "114.32",
+    "summa_retail": "138"
+  }, {
+    "product": "ХАЙНЦ Пудинг Бананчик с Яблочками в Сливках {с 6 мес} 200г. {3058}",
+    "product_code": "08007591",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030245"
+    }],
+    "count": "1",
+    "summa_purchase": "146.55",
+    "summa_retail": "177"
+  }, {
+    "product": "ХАЙНЦ Пудинг Фруктовое Ассорти в Сливках {с 6 мес} 200г. {21997}",
+    "product_code": "08007592",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030252"
+    }],
+    "count": "1",
+    "summa_purchase": "146.55",
+    "summa_retail": "177"
+  }, {
+    "product": "ХАЙНЦ Кашка *Рисовая Низкоаллергенная {с 4 мес} 160г. {54210}",
+    "product_code": "08001772",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030269"
+    }],
+    "count": "1",
+    "summa_purchase": "63.04",
+    "summa_retail": "76"
+  }, {
+    "product": "ХАЙНЦ Кашка  Пшенично-Овсяная с Фруктами без Молока (c 6 мес} 200г. {26500}",
+    "product_code": "08001805",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030276"
+    }],
+    "count": "1",
+    "summa_purchase": "87.68",
+    "summa_retail": "106"
+  }, {
+    "product": "ХАЙНЦ  ПЕРЕД СНОМ Кашка 3 Злака с Липой и Ромашкой без Молока {с 6 мес} 200г. {67841}",
+    "product_code": "11000810",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030283"
+    }],
+    "count": "1",
+    "summa_purchase": "108.15",
+    "summa_retail": "131"
+  }, {
+    "product": "ХАЙНЦ Кашка  Многозерновая из 5 Злаков без Молока {c 6 мес} 200г. {26501}",
+    "product_code": "08001807",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030290"
+    }],
+    "count": "1",
+    "summa_purchase": "70.15",
+    "summa_retail": "85"
+  }, {
+    "product": "ХАЙНЦ Кашка  Злаковая Пшенично-Кукурузная с Тыквой без Молока {c 5 мес} 200г {65336}",
+    "product_code": "08008892",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030306"
+    }],
+    "count": "1",
+    "summa_purchase": "87.68",
+    "summa_retail": "106"
+  }, {
+    "product": "ХАЙНЦ Кашка Пшеничная с Тыквой с Молоком {c 5 мес} 250г. {3051}",
+    "product_code": "08001791",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030313"
+    }],
+    "count": "1",
+    "summa_purchase": "114.32",
+    "summa_retail": "138"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Кукурузная Тыква, Морковочка, Чернослив с Молоком {с 5 мес} 200г. {24081}",
+    "product_code": "08001810",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030320"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Рисовая Абрикос, Чернослив с Молоком {с 5 мес} 200г. {24082}",
+    "product_code": "08001811",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030337"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Гречневая Грушка, Абрикос, Смородинка с Молоком {с 5 мес} 200г. {24300}",
+    "product_code": "08001812",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030344"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Пшеничная  Абрикос, Персик, Вишенка с Молоком {с 5 мес} 200г. {24203}",
+    "product_code": "08001813",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030351"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "ХАЙНЦ Кашка Овсяная с Молоком {c 5мес} 250г. {3048}",
+    "product_code": "08001787",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030368"
+    }],
+    "count": "1",
+    "summa_purchase": "91.46",
+    "summa_retail": "111"
+  }, {
+    "product": "ХАЙНЦ Кашка Кукурузная с Молоком {c 5 мес} 250г {70704}",
+    "product_code": "11000811",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030375"
+    }],
+    "count": "1",
+    "summa_purchase": "114.32",
+    "summa_retail": "138"
+  }, {
+    "product": "ХАЙНЦ Кашка Рисовая с Молоком {c 4 мес} 250г. {3053}",
+    "product_code": "08001789",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030382"
+    }],
+    "count": "1",
+    "summa_purchase": "114.32",
+    "summa_retail": "138"
+  }, {
+    "product": "ХАЙНЦ Кашка Многозерновая 5 Злаков с Бананом,Яблоком и Молоком  {c 6 мес} 250г {67845}",
+    "product_code": "11000812",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030399"
+    }],
+    "count": "1",
+    "summa_purchase": "114.32",
+    "summa_retail": "138"
+  }, {
+    "product": "ХАЙНЦ Кашка  Гречневая с Яблоком без Молока {c 4 мес} 200г. {27249}",
+    "product_code": "11000813",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030405"
+    }],
+    "count": "1",
+    "summa_purchase": "91.53",
+    "summa_retail": "111"
+  }, {
+    "product": "ХАЙНЦ Кашка  Гречневая с Яблоком без Молока {c 4 мес} 200г. {27249}",
+    "product_code": "08001792",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030412"
+    }],
+    "count": "1",
+    "summa_purchase": "91.53",
+    "summa_retail": "111"
+  }, {
+    "product": "ХАЙНЦ Кашка *Гречневая Низкоалергенная без Молока {c 4 мес} 200г. {3042}",
+    "product_code": "08001793",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030429"
+    }],
+    "count": "1",
+    "summa_purchase": "73.23",
+    "summa_retail": "89"
+  }, {
+    "product": "ХАЙНЦ Кашка  Гречневая без Молока с Омегой-3 {c 4 мес} 200г. {26574}",
+    "product_code": "08001794",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030436"
+    }],
+    "count": "1",
+    "summa_purchase": "73.23",
+    "summa_retail": "89"
+  }, {
+    "product": "ХАЙНЦ Кашка  Злаковая Рисово-Пшеничная с Кабачками без Молока {c 5 мес} 200г {65337}",
+    "product_code": "08008893",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030443"
+    }],
+    "count": "1",
+    "summa_purchase": "87.68",
+    "summa_retail": "106"
+  }, {
+    "product": "ХАЙНЦ Кашка  Злаковая Рисово-Пшеничная с Кабачками без Молока {c 5 мес} 200г {65337}",
+    "product_code": "08008893",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030450"
+    }],
+    "count": "1",
+    "summa_purchase": "87.68",
+    "summa_retail": "106"
+  }, {
+    "product": "ХАЙНЦ Кашка *Кукурузная Низкоаллергенная без Молока {c 5 мес} 200г. {3045}",
+    "product_code": "08001795",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030467"
+    }],
+    "count": "1",
+    "summa_purchase": "73.23",
+    "summa_retail": "89"
+  }, {
+    "product": "ХАЙНЦ Кашка *Первая Овсяная без Молока с Пребиотиками {c 5 мес} 180г. {3046}",
+    "product_code": "08001796",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030474"
+    }],
+    "count": "1",
+    "summa_purchase": "73.23",
+    "summa_retail": "89"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Овсяная Яблочко, Черничка, Ч.Смородинка с Молоком {с 5 мес} 200г. {36612}",
+    "product_code": "08001797",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030481"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Пшенично-Кукурузная Персик, Банан, Вишенка с Молоком {с 6 мес} 200г. {36613}",
+    "product_code": "08001798",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030498"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "ЛАКОМАЯ Кашка Многозерновая Яблочко, Вишенка с Молоком {с 6 мес} 200г. {36614}",
+    "product_code": "08001799",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030504"
+    }],
+    "count": "1",
+    "summa_purchase": "94.25",
+    "summa_retail": "114"
+  }, {
+    "product": "РАСТИ БОЛЬШОЙ  Детское Печенье ВИТАМ. и МИН. {с 6 мес}     (1*4) 100г. {25635}",
+    "product_code": "08009168",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030511"
+    }],
+    "count": "1",
+    "summa_purchase": "43.61",
+    "summa_retail": "53"
+  }, {
+    "product": "РАСТИ БОЛЬШОЙ  Детское Печенье БАНАН {с 6 мес}     (1*4) 100г. {36326}",
+    "product_code": "08009170",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030528"
+    }],
+    "count": "1",
+    "summa_purchase": "43.61",
+    "summa_retail": "53"
+  }, {
+    "product": "РАСТИ БОЛЬШОЙ  Детское Печенье  ВИТАМ. и МИН. {с 6 мес}    (1*6) 60г. {60326}",
+    "product_code": "08010688",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030535"
+    }],
+    "count": "1",
+    "summa_purchase": "25.86",
+    "summa_retail": "31"
+  }, {
+    "product": "МАЛЮТКА -1 {700г.} Молочная Смесь {с рождения} 700г. {59106}",
+    "product_code": "08001653",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030542"
+    }],
+    "count": "1",
+    "summa_purchase": "391.48",
+    "summa_retail": "474"
+  }, {
+    "product": "Малютка -2 (600г) Молочная смесь(с 6-ти мес.)600,0",
+    "product_code": "08011210",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030559"
+    }],
+    "count": "1",
+    "summa_purchase": "391.48",
+    "summa_retail": "474"
+  }, {
+    "product": "МАЛЮТКА - 1 Молочная Смесь с Пребиотиками  {с рождения} 350г. {59105}",
+    "product_code": "08001654",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030566"
+    }],
+    "count": "1",
+    "summa_purchase": "217.49",
+    "summa_retail": "263"
+  }, {
+    "product": "МАЛЮТКА - 2 Молочная Смесь с Пребиотиками {с 6 мес} 350г. {59353}",
+    "product_code": "08001658",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030573"
+    }],
+    "count": "1",
+    "summa_purchase": "217.49",
+    "summa_retail": "263"
+  }, {
+    "product": "МАЛЮТКА - 3 Детское Молочко {с 12 мес} 350г. {59108}",
+    "product_code": "08001656",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030580"
+    }],
+    "count": "1",
+    "summa_purchase": "232.27",
+    "summa_retail": "281"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Рисовая с Бананом и Молоком  {с 6 мес.} 250г {67305}",
+    "product_code": "11000814",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030597"
+    }],
+    "count": "1",
+    "summa_purchase": "90.54",
+    "summa_retail": "110"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Рисовая с  Молоком   {с 4 мес.} 250г {68304}",
+    "product_code": "11000815",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030603"
+    }],
+    "count": "1",
+    "summa_purchase": "90.54",
+    "summa_retail": "110"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Рисовая с Яблоком и Молоком   {с 4 мес.} 250г {67306}",
+    "product_code": "11000816",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030610"
+    }],
+    "count": "1",
+    "summa_purchase": "90.54",
+    "summa_retail": "110"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Рисовая с Курагой и Молоком {с 4 мес.} 250г {68668}",
+    "product_code": "11000817",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030627"
+    }],
+    "count": "1",
+    "summa_purchase": "90.54",
+    "summa_retail": "110"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Овсянка без Молока {с 5 мес.} 200г {67216}",
+    "product_code": "11000818",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030634"
+    }],
+    "count": "1",
+    "summa_purchase": "73.29",
+    "summa_retail": "89"
+  }, {
+    "product": "БЕБИ PREMIUM Каша `Гречневая с Козьим Молоком обогащен. Пребиотиками {с 4 мес.} 250г {65427}",
+    "product_code": "08008942",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030641"
+    }],
+    "count": "1",
+    "summa_purchase": "186.76",
+    "summa_retail": "226"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Злаки с Малиной, Вишней с Молоком {с 6 мес.} 200г. {39769}",
+    "product_code": "08001816",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030658"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Гречка с Молоком {с 4 мес.} 200г. {44425}",
+    "product_code": "08001817",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030665"
+    }],
+    "count": "1",
+    "summa_purchase": "95.95",
+    "summa_retail": "116"
+  }, {
+    "product": "БЕБИ Каша  Гречка без Молока {с 4 мес.} 200г. {45324}",
+    "product_code": "08001829",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030672"
+    }],
+    "count": "1",
+    "summa_purchase": "73.29",
+    "summa_retail": "89"
+  }, {
+    "product": "БЕБИ PREMIUM Каша *Рисовая Низкоаллергенная с Пребиотиками б/м {с 4 мес.} 200г. {62378}",
+    "product_code": "08001771",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030689"
+    }],
+    "count": "1",
+    "summa_purchase": "85.14",
+    "summa_retail": "103"
+  }, {
+    "product": "БЕБИ PREMIUM Каша *Кукурузная Низкоаллергенная с Пребиотиками б/м {с 6 мес.} 200г. {61524}",
+    "product_code": "08001768",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030696"
+    }],
+    "count": "1",
+    "summa_purchase": "85.14",
+    "summa_retail": "103"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Пшеница, Яблоко, Банан с Молоком {с 6 мес.} 250г. {3067}",
+    "product_code": "08001820",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030702"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Фруктово-Злаковое Ассорти с Молоком {с 6 мес.} 250г. {3068}",
+    "product_code": "08001819",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030719"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 5 Злаков с Абрикосом и Малиной, с Молоком {с 6 мес.} 200г {65423}",
+    "product_code": "08008943",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030726"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша *Гречневая Низкоаллергенная с Пребиотиками б/м {с 4 мес.} 200г. {62700}",
+    "product_code": "11000819",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030733"
+    }],
+    "count": "1",
+    "summa_purchase": "89.27",
+    "summa_retail": "108"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 4 Злака с Персиком со Сливками {с 12 мес.} 200г. {63224}",
+    "product_code": "11000820",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030740"
+    }],
+    "count": "1",
+    "summa_purchase": "107.25",
+    "summa_retail": "130"
+  }, {
+    "product": "БЕБИ PREMIUM Каша Овсянка с Молоком {с 5 мес.} 250г. {24234}",
+    "product_code": "08001821",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030757"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 'ДЛЯ ПОЛДНИКА' Пшеничная с Печеньем, Грушами с Молоком {с 6 мес.} 200г. {61888}",
+    "product_code": "11000821",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030764"
+    }],
+    "count": "1",
+    "summa_purchase": "106.27",
+    "summa_retail": "130"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 7 Злаков с Молоком {с 6 мес.} 200г. {48115}",
+    "product_code": "08001824",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030771"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 7 Злаков с Черникой с Молоком {с 6 мес.} 200г. {48116}",
+    "product_code": "08001830",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030788"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 'ДЛЯ СЛАДКИХ СНОВ' 3 злака с Мал., Мелис. с Молоком и Преб {с 6 мес.} 200г. {57563}",
+    "product_code": "08008989",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030795"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 'ДЛЯ СЛАДКИХ СНОВ'3 злака с Ябл., Ромаш. с Молоком и Преб. {с 6 мес.} 200г. {57564}",
+    "product_code": "08008990",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030801"
+    }],
+    "count": "1",
+    "summa_purchase": "98.92",
+    "summa_retail": "120"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 4 Злака с  Вишней, Бананом с Молоком {с 12 мес.} 200г. {63225}",
+    "product_code": "08008945",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030818"
+    }],
+    "count": "1",
+    "summa_purchase": "107.25",
+    "summa_retail": "130"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 'ДЛЯ ПОЛДНИКА' Пшеничная с Печеньем, Мал., Виш. с Молоком {с 6 мес.} 200г. {62477}",
+    "product_code": "08009981",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030825"
+    }],
+    "count": "1",
+    "summa_purchase": "106.27",
+    "summa_retail": "129"
+  }, {
+    "product": "БЕБИ PREMIUM Каша 'ДЛЯ ПОЛДНИКА' Овсянка с Печеньем, Виш.,Ябл. с Молоком {с 6 мес.} 200г. {62377}",
+    "product_code": "08001770",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030832"
+    }],
+    "count": "1",
+    "summa_purchase": "106.27",
+    "summa_retail": "129"
+  }, {
+    "product": "`НЕСТОЖЕН -1 (700) Молочная Смесь с Пребиотиками и Лактобактериями {с рождения} 700г. {60882}",
+    "product_code": "08005240",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030849"
+    }],
+    "count": "1",
+    "summa_purchase": "522.91",
+    "summa_retail": "633"
+  }, {
+    "product": "`НЕСТОЖЕН -2 (700) Молочная Смесь с Пребиотиками и Лактобактериями {с 6 мес} 700г. {60774}",
+    "product_code": "08005238",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030856"
+    }],
+    "count": "1",
+    "summa_purchase": "522.91",
+    "summa_retail": "633"
+  }, {
+    "product": "ХАЙНЦ  Детское Печеньице с Яблоком {с 5 мес} 160г. {34463}",
+    "product_code": "11000822",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030863"
+    }],
+    "count": "1",
+    "summa_purchase": "93.06",
+    "summa_retail": "113"
+  }, {
+    "product": "ХАЙНЦ  Детское Печеньице {с 5 мес} 160г. {72687}",
+    "product_code": "11000823",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030870"
+    }],
+    "count": "1",
+    "summa_purchase": "84.58",
+    "summa_retail": "102"
+  }, {
+    "product": "`НУТРИЛОН   Premium 2 Молочная Смесь {с 6 мес.} с Пребиотиками и Нуклеотидами ТЕРМО 400г. {61750}",
+    "product_code": "08005245",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030887"
+    }],
+    "count": "1",
+    "summa_purchase": "397.11",
+    "summa_retail": "481"
+  }, {
+    "product": "ХАЙНЦ  Детское Печеньице 6 Злаков {с 6 мес} 160г. {73112}",
+    "product_code": "11000824",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030894"
+    }],
+    "count": "1",
+    "summa_purchase": "93.06",
+    "summa_retail": "113"
+  }, {
+    "product": "ХАЙНЦ  Детское  Печеньице {с 5 мес} {1*4} 60г. {20206}",
+    "product_code": "08001674",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030900"
+    }],
+    "count": "1",
+    "summa_purchase": "27.59",
+    "summa_retail": "33"
+  }, {
+    "product": "ХАЙНЦ  Детское   Печеньице 6 Злаков {с 6 мес}(1*4) 60г {63964}",
+    "product_code": "11000825",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030917"
+    }],
+    "count": "5",
+    "summa_purchase": "137.95",
+    "summa_retail": "165"
+  }, {
+    "product": "ЧИПА - экстрамалышок ОВСЯНКА {с 5 мес} 180г. {60855}",
+    "product_code": "08001666",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030924"
+    }],
+    "count": "1",
+    "summa_purchase": "47.66",
+    "summa_retail": "58"
+  }, {
+    "product": "ЧИПА - экстрамалышок КАЛЬЦИЙ {с 5 мес} 180г. {60118}",
+    "product_code": "08001665",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030931"
+    }],
+    "count": "1",
+    "summa_purchase": "47.66",
+    "summa_retail": "58"
+  }, {
+    "product": "ЧИПА - экстрамалышок ЖЕЛЕЗО {с 5 мес} 180г. {60507}",
+    "product_code": "08001663",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030948"
+    }],
+    "count": "1",
+    "summa_purchase": "47.66",
+    "summa_retail": "58"
+  }, {
+    "product": "`Симилак  1  Молочная Смесь {с рождения} в картоне 350г. {65814}",
+    "product_code": "11000826",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030955"
+    }],
+    "count": "1",
+    "summa_purchase": "263.24",
+    "summa_retail": "319"
+  }, {
+    "product": "`Симилак  2  Молочная Смесь {с 6 мес} в картоне 350г. {65819}",
+    "product_code": "11000827",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030962"
+    }],
+    "count": "1",
+    "summa_purchase": "271.16",
+    "summa_retail": "328"
+  }, {
+    "product": "`Симилак  3  Молочный Напиток {с 12 мес} в картоне 350г. {50084}",
+    "product_code": "11000828",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030979"
+    }],
+    "count": "1",
+    "summa_purchase": "261.26",
+    "summa_retail": "316"
+  }, {
+    "product": "Симилак  1 {700г.} Молочная Смесь {с рождения} в картоне 700г. {65820}",
+    "product_code": "11000829",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030986"
+    }],
+    "count": "1",
+    "summa_purchase": "496.78",
+    "summa_retail": "601"
+  }, {
+    "product": "Симилак  2 {700г.} Молочная Смесь {с 6 мес} в картоне 700г. {65821}",
+    "product_code": "11000830",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100030993"
+    }],
+    "count": "1",
+    "summa_purchase": "500.74",
+    "summa_retail": "606"
+  }, {
+    "product": "Симилак  Премиум 1 {900г.} Молочная Смесь {с рождения} с Пребиотиками и Нуклеотидами 900г. {65537}",
+    "product_code": "11000831",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031006"
+    }],
+    "count": "1",
+    "summa_purchase": "879.07",
+    "summa_retail": "1064"
+  }, {
+    "product": "Симилак  Премиум 2 {900г.} Молочная Смесь {с 6 мес} с Пребиотиками и Нуклеотидами 900г. {65538}",
+    "product_code": "11000832",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031013"
+    }],
+    "count": "1",
+    "summa_purchase": "901.92",
+    "summa_retail": "1091"
+  }, {
+    "product": "Симилак  3 {700г.} Молочный Напиток {с 12 мес} в картоне 700г. {65823}",
+    "product_code": "11000833",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031020"
+    }],
+    "count": "1",
+    "summa_purchase": "443.34",
+    "summa_retail": "536"
+  }, {
+    "product": "Симилак  Премиум  2 Молочная Смесь  {с 6 мес} с Пребиотиками и Нуклеотидами 400г. {64058}",
+    "product_code": "11000834",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031037"
+    }],
+    "count": "1",
+    "summa_purchase": "473.82",
+    "summa_retail": "573"
+  }, {
+    "product": "Симилак  Премиум  1 Молочная Смесь {с рождения} с Пребиотиками и Нуклеотидами 400г. {65536}",
+    "product_code": "11000835",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031044"
+    }],
+    "count": "1",
+    "summa_purchase": "453.04",
+    "summa_retail": "548"
+  }, {
+    "product": "Б.Лукошко  Чай Шиповник (витаминный) {с 4 мес} 20пак {36277}",
+    "product_code": "08001697",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031051"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "Б.Лукошко  Чай Фенхель (от коликов) {с 1 мес} 20пак {36274}",
+    "product_code": "08001698",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031068"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "Б.Лукошко  Чай Ромашка (противоспалительный) {с 1 мес} 20пак {36275}",
+    "product_code": "08001699",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031075"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "Б.Лукошко  Чай Ромашка (противоспалительный) {с 1 мес} 20пак {36275}",
+    "product_code": "08001699",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031082"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "Б.Лукошко  Чай Мелиса, Чабрец, Фенхель (успокаивающий) { 5 мес} 20пак {36279}",
+    "product_code": "08001700",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031099"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "Б.Лукошко  Чай Мята (успокаивающий) {с 3 мес} 20пак {36276}",
+    "product_code": "08001701",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031105"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "Б.Лукошко  Чай Для Кормящих Мам Анис (Фенхель, Крапива, Тмин, Мелисса, Клевер) 20пак {36273}",
+    "product_code": "08001702",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031112"
+    }],
+    "count": "2",
+    "summa_purchase": "126.02",
+    "summa_retail": "152"
+  }, {
+    "product": "Б.Лукошко  Чай Для Кормящих Мам Шиповник (Фенхель, Крапива, Тмин, Мелисса) 20пак {36701}",
+    "product_code": "08001703",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031129"
+    }],
+    "count": "2",
+    "summa_purchase": "135.2",
+    "summa_retail": "164"
+  }, {
+    "product": "КОТЕX Прокладки Ультра  Сетч. Ночные (7*1) Новый дизайн! 7шт {60917}",
+    "product_code": "08005274",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031136"
+    }],
+    "count": "2",
+    "summa_purchase": "156.36",
+    "summa_retail": "220"
+  }, {
+    "product": "КОТЕX Прокладки Ультра Сетч. Нормал (10*1) (мешочек) 10шт {59477}",
+    "product_code": "08005275",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031143"
+    }],
+    "count": "2",
+    "summa_purchase": "156.36",
+    "summa_retail": "220"
+  }, {
+    "product": "КОТЕX Прокладки Ультра Сетч. Супер (8) Новый дизайн! 8шт {59727}",
+    "product_code": "08005276",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031150"
+    }],
+    "count": "2",
+    "summa_purchase": "156.36",
+    "summa_retail": "220"
+  }, {
+    "product": "ПЕЛИГРИН Комплект Белья Послеродовой СТЕРИЛЬНЫЙ трусики 1шт.+ прокладки 4шт.   {28066}",
+    "product_code": "11000836",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031167"
+    }],
+    "count": "1",
+    "summa_purchase": "268.52",
+    "summa_retail": "380"
+  }, {
+    "product": "KOTEX Прокладки Ультра  Сетч. Ночные (14*1) 14шт {69500}",
+    "product_code": "11000837",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031174"
+    }],
+    "count": "2",
+    "summa_purchase": "295.46",
+    "summa_retail": "420"
+  }, {
+    "product": "KOTEX Прокладки Ультра Сетч.  Нормал (20*1) 20шт {59725}",
+    "product_code": "11000838",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031181"
+    }],
+    "count": "2",
+    "summa_purchase": "295.46",
+    "summa_retail": "420"
+  }, {
+    "product": "KOTEX Прокладки Ультра Сетч. Супер (16) 16шт {59246}",
+    "product_code": "11000839",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031198"
+    }],
+    "count": "2",
+    "summa_purchase": "295.46",
+    "summa_retail": "420"
+  }, {
+    "product": "Mepsi Подгузник детский    NB size (60 шт.) премиум до 6кг {67647}",
+    "product_code": "11000840",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031204"
+    }],
+    "count": "1",
+    "summa_purchase": "503.58",
+    "summa_retail": "705"
+  }, {
+    "product": "Mepsi Подгузник детский   S size (54 шт.) премиум 4-9кг {67656}",
+    "product_code": "11000841",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031211"
+    }],
+    "count": "1",
+    "summa_purchase": "535.06",
+    "summa_retail": "750"
+  }, {
+    "product": "Mepsi Подгузник детский    NB size (30 шт.) премиум до 6кг {67646}",
+    "product_code": "11000842",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031228"
+    }],
+    "count": "1",
+    "summa_purchase": "280.69",
+    "summa_retail": "395"
+  }, {
+    "product": "Mepsi  Подгузники - трусики детские M size ( 58 шт) 6-11 кг {70235}",
+    "product_code": "11000843",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031235"
+    }],
+    "count": "1",
+    "summa_purchase": "822.11",
+    "summa_retail": "1150"
+  }, {
+    "product": "Mepsi Подгузник детский  M size (42 шт.) премиум 6-11кг {67649}",
+    "product_code": "11000844",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031242"
+    }],
+    "count": "1",
+    "summa_purchase": "535.06",
+    "summa_retail": "750"
+  }, {
+    "product": "Mepsi Подгузник детский L size (38 шт.) премиум 9-16кг {67648}",
+    "product_code": "11000845",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031259"
+    }],
+    "count": "1",
+    "summa_purchase": "535.06",
+    "summa_retail": "750"
+  }, {
+    "product": "Mepsi  Подгузники - трусики детские L size (44 шт) 9-16кг {70237}",
+    "product_code": "11000846",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031266"
+    }],
+    "count": "1",
+    "summa_purchase": "822.11",
+    "summa_retail": "1150"
+  }, {
+    "product": "Mepsi Подгузник детский   S size (27шт.) премиум 4-9кг {67650}",
+    "product_code": "11000847",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031273"
+    }],
+    "count": "1",
+    "summa_purchase": "280.69",
+    "summa_retail": "395"
+  }, {
+    "product": "Mepsi Подгузник детский  M size (21 шт.) премиум 6-11кг {67651}",
+    "product_code": "11000848",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031280"
+    }],
+    "count": "1",
+    "summa_purchase": "280.69",
+    "summa_retail": "395"
+  }, {
+    "product": "Mepsi Подгузники - трусики детские XL size  (38 шт) 12-22 кг {70243}",
+    "product_code": "11000849",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031297"
+    }],
+    "count": "1",
+    "summa_purchase": "822.11",
+    "summa_retail": "1151"
+  }, {
+    "product": "Mepsi Подгузник детский L size (18 шт.) премиум 9-16кг {67652}",
+    "product_code": "11000850",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031303"
+    }],
+    "count": "1",
+    "summa_purchase": "280.69",
+    "summa_retail": "395"
+  }, {
+    "product": "БЕБИ Детская Питьевая Вода 1 л {3283}",
+    "product_code": "08001752",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031310"
+    }],
+    "count": "6",
+    "summa_purchase": "142.56",
+    "summa_retail": "174"
+  }, {
+    "product": "БЕБИ Детская Питьевая Вода 5 л {62355}",
+    "product_code": "08001754",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031327"
+    }],
+    "count": "3",
+    "summa_purchase": "169.14",
+    "summa_retail": "204"
+  }, {
+    "product": "БЕБИ Детская Питьевая Вода c крышкой sport-cap 0,5л {44810}",
+    "product_code": "08001755",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031334"
+    }],
+    "count": "3",
+    "summa_purchase": "91.47",
+    "summa_retail": "111"
+  }, {
+    "product": "ФРУТОНЯНЯ Детская Вода Питьевая негаз. артезиан. высшей кат. качества 0,33л {28075}",
+    "product_code": "08001756",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031341"
+    }],
+    "count": "24",
+    "summa_purchase": "558.96",
+    "summa_retail": "672"
+  }, {
+    "product": "ФРУТОНЯНЯ Детская Вода Питьевая негаз.артезианская высшей кат. качества 1,5л {27252}",
+    "product_code": "08001757",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031358"
+    }],
+    "count": "6",
+    "summa_purchase": "230.28",
+    "summa_retail": "276"
+  }, {
+    "product": "ФРУТОНЯНЯ Детская Вода Питьевая негаз.артезианская высшей кат. качества 5л. 5 л {38278}",
+    "product_code": "08001758",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031365"
+    }],
+    "count": "6",
+    "summa_purchase": "536.46",
+    "summa_retail": "648"
+  }, {
+    "product": "Б.Лукошко Пюре  из Кабачков с Молоком {с 5 мес} с сах. 100г {3735}",
+    "product_code": "08002158",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031372"
+    }],
+    "count": "3",
+    "summa_purchase": "87.45",
+    "summa_retail": "105"
+  }, {
+    "product": "Б.Лукошко Пюре из Кабачков и Яблок 'Рассвет' {с 5 мес} ГА, б/сах., б/соли 100г {3767}",
+    "product_code": "11000851",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031389"
+    }],
+    "count": "6",
+    "summa_purchase": "174.9",
+    "summa_retail": "210"
+  }, {
+    "product": "Б.Лукошко Пюре из Груш и Яблок {с 5 мес} ГА, б/сах. 100г {3733}",
+    "product_code": "11000852",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031396"
+    }],
+    "count": "6",
+    "summa_purchase": "168.96",
+    "summa_retail": "204"
+  }, {
+    "product": "Б.Лукошко Пюре из Яблок и Абрикосов {с 5 мес} б/сах. 100г {3748}",
+    "product_code": "11000853",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031402"
+    }],
+    "count": "3",
+    "summa_purchase": "101.94",
+    "summa_retail": "123"
+  }, {
+    "product": "Б.Лукошко Пюре из Яблок {с 3,5 мес} ГА, б/сах. 100г {3747}",
+    "product_code": "08002152",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031419"
+    }],
+    "count": "6",
+    "summa_purchase": "168.96",
+    "summa_retail": "204"
+  }, {
+    "product": "Б.Лукошко Пюре из Груш {с 3,5 мес} ГА, б/сах. 100г {3732}",
+    "product_code": "08002151",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031426"
+    }],
+    "count": "6",
+    "summa_purchase": "168.96",
+    "summa_retail": "204"
+  }, {
+    "product": "Б.Лукошко Пюре из Персиков {с 4 мес} б/сах. 100г {3741}",
+    "product_code": "08002150",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031433"
+    }],
+    "count": "6",
+    "summa_purchase": "206.28",
+    "summa_retail": "252"
+  }, {
+    "product": "Б.Лукошко Пюре из Абрикосов {с 4 мес} с сах. 100г {3731}",
+    "product_code": "08002149",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031440"
+    }],
+    "count": "6",
+    "summa_purchase": "212.16",
+    "summa_retail": "258"
+  }, {
+    "product": "Б.Лукошко Пюре Рагу Овощное с Кроликом {с 6 мес} б/соли 100г {33490}",
+    "product_code": "08002163",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031457"
+    }],
+    "count": "3",
+    "summa_purchase": "141.09",
+    "summa_retail": "171"
+  }, {
+    "product": "Б.Лукошко Пюре из Цветной капусты с Кроликом {с 6 мес} б/соли 100г {33484}",
+    "product_code": "08002148",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031464"
+    }],
+    "count": "3",
+    "summa_purchase": "156.78",
+    "summa_retail": "189"
+  }, {
+    "product": "Б.Лукошко Пюре из Цветной капусты с Говядиной {с 6 мес} б/соли 100г {33488}",
+    "product_code": "08002147",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031471"
+    }],
+    "count": "3",
+    "summa_purchase": "115.71",
+    "summa_retail": "141"
+  }, {
+    "product": "Б,Лукошко говядина с кабач 100,0",
+    "product_code": "11001208",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100037961"
+    }],
+    "count": "6",
+    "summa_purchase": "231.42",
+    "summa_retail": "279"
+  }, {
+    "product": "Б.Лукошко Пюре Рагу Овощное с Говядиной {с 7 мес} 100г {3758}",
+    "product_code": "08002169",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031495"
+    }],
+    "count": "3",
+    "summa_purchase": "102.39",
+    "summa_retail": "141"
+  }, {
+    "product": "Б.Лукошко Пюре из Цыпленка {с 6 мес} б/соли 100г {42495}",
+    "product_code": "11000854",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031501"
+    }],
+    "count": "3",
+    "summa_purchase": "152.91",
+    "summa_retail": "186"
+  }, {
+    "product": "Б.Лукошко Пюре из Индейки {с 6 мес} 100г {21496}",
+    "product_code": "08002146",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031518"
+    }],
+    "count": "6",
+    "summa_purchase": "318.72",
+    "summa_retail": "384"
+  }, {
+    "product": "Б,Лукошко говяд свекла 100,0",
+    "product_code": "11001209",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100037978"
+    }],
+    "count": "6",
+    "summa_purchase": "231.42",
+    "summa_retail": "282"
+  }, {
+    "product": "Б.Лукошко Пюре из Говядины {с 6 мес} 100г {21492}",
+    "product_code": "08002145",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031532"
+    }],
+    "count": "6",
+    "summa_purchase": "313.56",
+    "summa_retail": "378"
+  }, {
+    "product": "Б.Лукошко Пюре из Говядины с Гречкой  {с 6 мес} 100г {44303}",
+    "product_code": "11000855",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031549"
+    }],
+    "count": "6",
+    "summa_purchase": "238.92",
+    "summa_retail": "288"
+  }, {
+    "product": "Б.Лукошко Пюре Рагу Овощное с Индейкой {с 6 мес} б/соли 100г {68723}",
+    "product_code": "11000856",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031556"
+    }],
+    "count": "3",
+    "summa_purchase": "102.39",
+    "summa_retail": "123"
+  }, {
+    "product": "Б.Лукошко Пюре из Говядины и Мяса Птицы {с 6 мес} 100г {21494}",
+    "product_code": "11000857",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031563"
+    }],
+    "count": "6",
+    "summa_purchase": "305.82",
+    "summa_retail": "372"
+  }, {
+    "product": "Б.Лукошко Пюре из Говядины и Языка {с 8 мес} 100г {21495}",
+    "product_code": "08002139",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031570"
+    }],
+    "count": "6",
+    "summa_purchase": "318.72",
+    "summa_retail": "384"
+  }, {
+    "product": "Б.Лукошко Пюре из Говядины и Печени {с 8 мес} 100г {21493}",
+    "product_code": "08002142",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031587"
+    }],
+    "count": "6",
+    "summa_purchase": "305.82",
+    "summa_retail": "372"
+  }, {
+    "product": "Б.Лукошко  Пюре Рагу из Семги с Овощами {с 8 мес} 100г {27181}",
+    "product_code": "08002144",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031594"
+    }],
+    "count": "6",
+    "summa_purchase": "336.84",
+    "summa_retail": "408"
+  }, {
+    "product": "Б.Лукошко  Пюре Горбуша с Картофелем {с 8 мес} б/соли 100г {27177}",
+    "product_code": "08002143",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031600"
+    }],
+    "count": "6",
+    "summa_purchase": "256.02",
+    "summa_retail": "312"
+  }, {
+    "product": "Б.Лукошко Пюре из Говядины с Тыквой 'Рыжик' {с 6 мес} 100г {20408}",
+    "product_code": "08002165",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031617"
+    }],
+    "count": "6",
+    "summa_purchase": "231.42",
+    "summa_retail": "282"
+  }, {
+    "product": "Б.Лукошко Пюре из Цветной Капусты {с 4 мес} ГА, б/сах., б/соли 100г {27044}",
+    "product_code": "08002164",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031624"
+    }],
+    "count": "6",
+    "summa_purchase": "190.56",
+    "summa_retail": "228"
+  }, {
+    "product": "Б.Лукошко Пюре из Тыквы {с 5 мес} ГА, б/сах., б/соли 100г {3742}",
+    "product_code": "08002166",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031631"
+    }],
+    "count": "6",
+    "summa_purchase": "174.9",
+    "summa_retail": "210"
+  }, {
+    "product": "Б.Лукошко Пюре из Кролика {с 6 мес} б/соли 100г {42494}",
+    "product_code": "08002168",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031648"
+    }],
+    "count": "6",
+    "summa_purchase": "442.74",
+    "summa_retail": "534"
+  }, {
+    "product": "Б.Лукошко Пюре Рагу Овощное с Цыпленком {с 7 мес} 100г {3759}",
+    "product_code": "08002157",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031655"
+    }],
+    "count": "3",
+    "summa_purchase": "102.39",
+    "summa_retail": "123"
+  }, {
+    "product": "Б.Лукошко Пюре  из *Груш с Творогом  {с 5 мес} 100г {44300}",
+    "product_code": "08002161",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031662"
+    }],
+    "count": "6",
+    "summa_purchase": "203.88",
+    "summa_retail": "246"
+  }, {
+    "product": "Б.Лукошко Пюре  из *Чернослива с Творогом  {с 5 мес} 100г {44423}",
+    "product_code": "11000858",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031679"
+    }],
+    "count": "6",
+    "summa_purchase": "216.66",
+    "summa_retail": "264"
+  }, {
+    "product": "Б.Лукошко Пюре  из *Яблок с Творогом  {с 5 мес} 100г {44424}",
+    "product_code": "08002160",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031686"
+    }],
+    "count": "6",
+    "summa_purchase": "203.88",
+    "summa_retail": "246"
+  }, {
+    "product": "Б.Лукошко Пюре из Капусты Брокколи {с 4 мес} ГА, б/сах., б/соли 100г {27045}",
+    "product_code": "08002159",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031693"
+    }],
+    "count": "6",
+    "summa_purchase": "190.56",
+    "summa_retail": "228"
+  }, {
+    "product": "Б.Лукошко Пюре из Яблок и Чернослива {с 5 мес} ГА, б/сах. 100г {31756}",
+    "product_code": "08009366",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031709"
+    }],
+    "count": "6",
+    "summa_purchase": "203.88",
+    "summa_retail": "246"
+  }, {
+    "product": "Б.Лукошко Пюре  из Кабачков с Морковью и Молоком {с 6 мес} с сах. 100г {3734}",
+    "product_code": "11000859",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031716"
+    }],
+    "count": "6",
+    "summa_purchase": "174.9",
+    "summa_retail": "210"
+  }, {
+    "product": "Б.Лукошко Пюре из Моркови и Яблок {с 5 мес}  ГА, б/сах., б/соли 100г {3737}",
+    "product_code": "11000860",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031723"
+    }],
+    "count": "6",
+    "summa_purchase": "174.9",
+    "summa_retail": "210"
+  }, {
+    "product": "Б.Лукошко Пюре из Кабачков {с 4 мес} , б/сах., б/соли 100г {51186}",
+    "product_code": "08002155",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031730"
+    }],
+    "count": "6",
+    "summa_purchase": "190.5",
+    "summa_retail": "228"
+  }, {
+    "product": "Б.Лукошко  Пюре Рагу из Кеты с Овощами {с 8 мес} 100г {72146}",
+    "product_code": "11000861",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031747"
+    }],
+    "count": "6",
+    "summa_purchase": "370.62",
+    "summa_retail": "450"
+  }, {
+    "product": "Б.Лукошко  Пюре Судак с Овощами {с 8 мес} 100г {72147}",
+    "product_code": "08011225",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031754"
+    }],
+    "count": "6",
+    "summa_purchase": "370.62",
+    "summa_retail": "450"
+  }, {
+    "product": "Б.Лукошко Фрикадельки из Говядины в бульоне {с 8 мес} 100г {61790}",
+    "product_code": "08007017",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031761"
+    }],
+    "count": "6",
+    "summa_purchase": "391.14",
+    "summa_retail": "474"
+  }, {
+    "product": "Б.Лукошко Фрикадельки из Индейки в бульоне {с 8 мес} 100г {61791}",
+    "product_code": "08007016",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031778"
+    }],
+    "count": "6",
+    "summa_purchase": "391.14",
+    "summa_retail": "474"
+  }, {
+    "product": "Б.Лукошко Фрикадельки из Мяса Цыплят в Бульоне {с 8 мес} 100г {62035}",
+    "product_code": "08007018",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031785"
+    }],
+    "count": "6",
+    "summa_purchase": "391.14",
+    "summa_retail": "474"
+  }, {
+    "product": "ГЕРБЕР  Пюре Фруктовое Яблоко {c 4 мес} 1-я ступень 80г. {30293}",
+    "product_code": "08010304",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031792"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ГЕРБЕР  Пюре Фруктовое Чернослив {c 4 мес} 1-я ступень 80г. {30292}",
+    "product_code": "08010305",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031808"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ГЕРБЕР  Пюре Овощное Брокколи {c 4 мес} 1-я ступень 80г. {30288}",
+    "product_code": "08010306",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031815"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ГЕРБЕР  Пюре Фруктовое Груша 'Вильямс' {c 4 мес} 1-я ступень 80г. {30295}",
+    "product_code": "08010307",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031822"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ГЕРБЕР  Пюре Овощное Морковь {c 4 мес} 1-я ступень 80г. {30291}",
+    "product_code": "08010310",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031839"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ГЕРБЕР  Пюре Овощное Тыква {c 5 мес} 1-я ступень 80г. {30287}",
+    "product_code": "08010311",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031846"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ГЕРБЕР  Пюре Овощное Цветная Капуста {c 4 мес} 1-я ступень 80г. {30289}",
+    "product_code": "11000862",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031853"
+    }],
+    "count": "2",
+    "summa_purchase": "103",
+    "summa_retail": "124"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины  Гомогенизированое {c 6 мес} 100г. {33377}",
+    "product_code": "11000863",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031860"
+    }],
+    "count": "3",
+    "summa_purchase": "158.61",
+    "summa_retail": "190.5"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Печенью  {c 8 мес} 100г. {33374}",
+    "product_code": "11000864",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031877"
+    }],
+    "count": "3",
+    "summa_purchase": "158.61",
+    "summa_retail": "190.5"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Языком {с 8 мес} 100г. {33376}",
+    "product_code": "11000865",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031884"
+    }],
+    "count": "3",
+    "summa_purchase": "158.61",
+    "summa_retail": "190.5"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Сердцем  {с 8 мес} 100г. {33375}",
+    "product_code": "11000866",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031891"
+    }],
+    "count": "3",
+    "summa_purchase": "158.61",
+    "summa_retail": "190.5"
+  }, {
+    "product": "ТЕМА  Пюре из Мяса Цыплят и Говядины 12% {с 6 мес} 100г. {33064}",
+    "product_code": "11000867",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031907"
+    }],
+    "count": "3",
+    "summa_purchase": "131.49",
+    "summa_retail": "159"
+  }, {
+    "product": "ТЕМА  Пюре из Индейки  Гомогенизированое {c 6 мес} 100г. {32688}",
+    "product_code": "11000868",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031914"
+    }],
+    "count": "3",
+    "summa_purchase": "167.07",
+    "summa_retail": "201"
+  }, {
+    "product": "ТЕМА  Пюре из Кролика  Гомогенизированое {c 6 мес} 100г. {40153}",
+    "product_code": "11000869",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031921"
+    }],
+    "count": "3",
+    "summa_purchase": "212.28",
+    "summa_retail": "258"
+  }, {
+    "product": "ТЕМА  Пюре из Телятины  Гомогенизированое {c 6 мес} 100г. {33378}",
+    "product_code": "11000870",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031938"
+    }],
+    "count": "3",
+    "summa_purchase": "158.61",
+    "summa_retail": "192"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Кабачками и Рисом 6% {с 6 мес} 100г {63946}",
+    "product_code": "11000871",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031945"
+    }],
+    "count": "2",
+    "summa_purchase": "69.48",
+    "summa_retail": "84"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Рисовой Крупой {с 8 мес} 100г. {33062}",
+    "product_code": "11000872",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031952"
+    }],
+    "count": "2",
+    "summa_purchase": "69.48",
+    "summa_retail": "84"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Гречневой Крупой 6% {с 8 мес} 100г. {32687}",
+    "product_code": "11000873",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031969"
+    }],
+    "count": "2",
+    "summa_purchase": "69.48",
+    "summa_retail": "84"
+  }, {
+    "product": "ТЕМА  Пюре из Говядины с Брокколи, Морковью, Рисом  {с 6 мес} 100г {64127}",
+    "product_code": "11000874",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031976"
+    }],
+    "count": "2",
+    "summa_purchase": "69.48",
+    "summa_retail": "84"
+  }, {
+    "product": "ТЕМА  Пюре из Цыпленка  с Гречневой Крупой {с 6 мес} 100г {64133}",
+    "product_code": "11000875",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031983"
+    }],
+    "count": "2",
+    "summa_purchase": "69.48",
+    "summa_retail": "84"
+  }, {
+    "product": "Фрутоняня Пюре  Творог, Яблоко, Персик {с 6 мес}   (Гуалапак) 90г. {60888}",
+    "product_code": "11000876",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100031990"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре 'Витаминный Салатик' из Яблок, Шиповника и Клюквы {с 5 мес}   (Гуалапак) 90г. {58661}",
+    "product_code": "08007311",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032003"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре Груша Натуральное {с 4 мес}   (Гуалапак) 90г. {58431}",
+    "product_code": "11000877",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032010"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре 'Салатик из Фруктов' из Яблок, Груш, Персиков, Бананов {с 6 мес}   (Гуалапак) 90г. {68087}",
+    "product_code": "11000878",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032027"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре  Творог, Яблоко, Груша {с 6 мес}   (Гуалапак) 90г. {60887}",
+    "product_code": "11000879",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032034"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре  Яблоко Абрикос со Сливками {с 6 мес}   (Гуалапак) 90г. {58662}",
+    "product_code": "08010415",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032041"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре 'Салатик со Смородиной' из Яблок, Черной и Красной Смородины {с 5 мес}   (Гуалапак) 90г. {66375}",
+    "product_code": "08008894",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032058"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре  Творог, Яблоко, Банан {с 6 мес}   (Гуалапак) 90г. {58432}",
+    "product_code": "11000880",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032065"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Пюре Яблоко Натуральное  {с 4 мес}   (Гуалапак) 90г. {68897}",
+    "product_code": "11000881",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032072"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "ФН Десерт 90г из яблок, бананов, апельсинов и манг",
+    "product_code": "08003613",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032089"
+    }],
+    "count": "6",
+    "summa_purchase": "229.92",
+    "summa_retail": "276"
+  }, {
+    "product": "Фрутоняня  Десерт из Яблок, Вишни, Рябины и Ч.Смородины с сахаром {с 5 мес}    (Гуалапак) 90г {61016}",
+    "product_code": "11000882",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032096"
+    }],
+    "count": "6",
+    "summa_purchase": "229.92",
+    "summa_retail": "276"
+  }, {
+    "product": "Фрутоняня  Десерт из Яблок, Бананов и Клубники {с 7 мес}   (Гуалапак) 90г {60889}",
+    "product_code": "11000883",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032102"
+    }],
+    "count": "6",
+    "summa_purchase": "229.92",
+    "summa_retail": "276"
+  }, {
+    "product": "Фрутоняня Кисель из Черной Смородины {с 1 года} для д. п. 0,2л {65326}",
+    "product_code": "11000884",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032119"
+    }],
+    "count": "2",
+    "summa_purchase": "61.06",
+    "summa_retail": "74"
+  }, {
+    "product": "ФН Десерт из яблок,клубники и малины (с 7 мес.) 90,0",
+    "product_code": "08006047",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032126"
+    }],
+    "count": "6",
+    "summa_purchase": "229.92",
+    "summa_retail": "276"
+  }, {
+    "product": "Фрутоняня Пюре Яблоко, Банан, Груша с Печеньем {с 6 мес}   (Гуалапак) 90г. {70504}",
+    "product_code": "08010518",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032133"
+    }],
+    "count": "6",
+    "summa_purchase": "219",
+    "summa_retail": "264"
+  }, {
+    "product": "Фрутоняня Кисель из Вишни {с 1 года} для д. п. 0,2л {68898}",
+    "product_code": "11000885",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032140"
+    }],
+    "count": "2",
+    "summa_purchase": "61.06",
+    "summa_retail": "74"
+  }, {
+    "product": "Фрутоняня Кисель из Вишни {с 1 года} для д.п. 0,2л {58689}",
+    "product_code": "11000886",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032157"
+    }],
+    "count": "2",
+    "summa_purchase": "61.06",
+    "summa_retail": "74"
+  }, {
+    "product": "Фрутоняня Кисель из Малины {с 1 года} для д.п. 0.2л {58696}",
+    "product_code": "11000887",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032164"
+    }],
+    "count": "2",
+    "summa_purchase": "61.06",
+    "summa_retail": "74"
+  }, {
+    "product": "Б.Лукошко Сок Яблочно-Вишневый Осветленный {с 5 мес} тетрапак 0,2л {68989}",
+    "product_code": "11000888",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032171"
+    }],
+    "count": "3",
+    "summa_purchase": "59.64",
+    "summa_retail": "72"
+  }, {
+    "product": "Б.Лукошко Сок Грушевый Осветленный {с 4 мес} тетрапак 0,2л {68987}",
+    "product_code": "11000889",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032188"
+    }],
+    "count": "3",
+    "summa_purchase": "59.64",
+    "summa_retail": "72"
+  }, {
+    "product": "Б.Лукошко Сок Яблочный Осветленный {с 3 мес} ГА, б/сах. 200мл {39510}",
+    "product_code": "08002180",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032195"
+    }],
+    "count": "3",
+    "summa_purchase": "59.64",
+    "summa_retail": "72"
+  }, {
+    "product": "Б.Лукошко Сок Яблочно-Грушевый Осветленный {с 5 мес} ГА, б/сах. 200мл {40063}",
+    "product_code": "08002181",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032201"
+    }],
+    "count": "3",
+    "summa_purchase": "59.64",
+    "summa_retail": "72"
+  }, {
+    "product": "МАЛЫШАМ Нектар Яблочно-Вишневый Осветленный (с 5 мес) 0,2 л {40220}",
+    "product_code": "08001751",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032218"
+    }],
+    "count": "3",
+    "summa_purchase": "52.32",
+    "summa_retail": "63"
+  }, {
+    "product": "МАЛЫШАМ Нектар Яблочно-Вишневый Осветленный (с 5 мес) 0,2 л {40220}",
+    "product_code": "08001751",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032225"
+    }],
+    "count": "3",
+    "summa_purchase": "52.32",
+    "summa_retail": "63"
+  }, {
+    "product": "МАЛЫШАМ Нектар Яблоко-Персик Неосветленный {с 5 мес} 0,2 л {40251}",
+    "product_code": "11000890",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032232"
+    }],
+    "count": "3",
+    "summa_purchase": "52.32",
+    "summa_retail": "63"
+  }, {
+    "product": "МАЛЫШАМ Сок Яблочный Осветленный (с 3 мес) 0,2 л {29253}",
+    "product_code": "08001747",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032249"
+    }],
+    "count": "3",
+    "summa_purchase": "52.32",
+    "summa_retail": "63"
+  }, {
+    "product": "МАЛЫШАМ Нектар Мультифрукт. Яблоко, Абрикос, Апельсин Неосветленный (с 6 мес) 0,2 л {40924}",
+    "product_code": "08001750",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032256"
+    }],
+    "count": "3",
+    "summa_purchase": "52.32",
+    "summa_retail": "63"
+  }, {
+    "product": "Фрутоняня  Компот из Вишни и Малины, неосветл.  {с 5 мес} 0,2л {71866}",
+    "product_code": "11000891",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032263"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Фрутоняня  Компот из Вишни и Малины, неосветл. {с 5 мес} 0,2л {58692}",
+    "product_code": "08008563",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032270"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Фрутоняня Нектар Яблочно-Вишневый с Мякотью {с 5 мес} 0,2л {14085}",
+    "product_code": "11000892",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032287"
+    }],
+    "count": "6",
+    "summa_purchase": "141.3",
+    "summa_retail": "180"
+  }, {
+    "product": "Фрутоняня Молоко с Печеньем м.д.ж. 2,4% для д.п. {с 12 мес} 0,2л {72355}",
+    "product_code": "11000893",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032294"
+    }],
+    "count": "2",
+    "summa_purchase": "64.46",
+    "summa_retail": "78"
+  }, {
+    "product": "МАЛЫШАМ Сок Яблоко-Груша Осветленный {с 5 мес} 0,2 л {63239}",
+    "product_code": "11000894",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032300"
+    }],
+    "count": "3",
+    "summa_purchase": "52.32",
+    "summa_retail": "63"
+  }, {
+    "product": "Фрутоняня Нектар Яблочно-Сливовый с Мякотью {с 5 мес} 0,2л {15441}",
+    "product_code": "11000895",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032317"
+    }],
+    "count": "6",
+    "summa_purchase": "141.3",
+    "summa_retail": "174"
+  }, {
+    "product": "Фрутоняня  Молочный Коктейль Клубника-Земляника стерилиз. м.д.ж.  2,1% {с 1 года} 0,2л {73185}",
+    "product_code": "11000896",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032324"
+    }],
+    "count": "2",
+    "summa_purchase": "52.76",
+    "summa_retail": "64"
+  }, {
+    "product": "Фрутоняня  Молочный Коктейль Банан стерилиз. м.д.ж. 2,1%  {с 1 года} 0,2л {72751}",
+    "product_code": "11000897",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032331"
+    }],
+    "count": "2",
+    "summa_purchase": "52.76",
+    "summa_retail": "64"
+  }, {
+    "product": "Фрутоняня Сок Яблочный Осветленный без сахара {с 4 мес} 0,2л {3357}",
+    "product_code": "11000898",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032348"
+    }],
+    "count": "6",
+    "summa_purchase": "141.3",
+    "summa_retail": "174"
+  }, {
+    "product": "Фрутоняня  Молочный Коктейль Ваниль стерилиз. м.д.ж. 2,1%  {с 1 года} 0,2л {72637}",
+    "product_code": "11000899",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032355"
+    }],
+    "count": "2",
+    "summa_purchase": "52.76",
+    "summa_retail": "64"
+  }, {
+    "product": "Фрутоняня  Компот из Яблок и Клубники, неосветл. {с 6 мес} 0,2л {58691}",
+    "product_code": "11000900",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032362"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Фрутоняня Сок Грушевый Осветленный без сахара  {с 4 мес} 0,2л {65516}",
+    "product_code": "11000901",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032379"
+    }],
+    "count": "6",
+    "summa_purchase": "141.3",
+    "summa_retail": "174"
+  }, {
+    "product": "ФН 0,2л Напит. ябл.с экстр.ромашки/липы неосв.(27)",
+    "product_code": "08003677",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032386"
+    }],
+    "count": "3",
+    "summa_purchase": "70.65",
+    "summa_retail": "87"
+  }, {
+    "product": "Фрутоняня  Морс  из Малины, Черной и Красной Смородины  'Садовые ягоды' {с 5 мес} 0,2л {61042}",
+    "product_code": "08007310",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032393"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Фрутоняня  Морс  из Клюквы и Малины {с 5 мес} 0,2л {58742}",
+    "product_code": "08007309",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032409"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "ФН 0,2л Нектар морковн. с мякотью (27)",
+    "product_code": "08003612",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032416"
+    }],
+    "count": "6",
+    "summa_purchase": "141.3",
+    "summa_retail": "174"
+  }, {
+    "product": "Фрутоняня  Морс  из Клюквы, Черники и Вишни {с 5 мес} 0,2л {58741}",
+    "product_code": "08007308",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032423"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Фрутоняня  Морс  из Клюквы, Черники и Вишни {с 5 мес} 0,2л {58741}",
+    "product_code": "08007308",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032430"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Фруто-Няня компот из яблок и экстракта изюма и кураги 200мл",
+    "product_code": "08009211",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032447"
+    }],
+    "count": "2",
+    "summa_purchase": "50.02",
+    "summa_retail": "60"
+  }, {
+    "product": "Б.Лукошко Сок Яблочно-Шиповниковый Осветленный {с 5 мес} б/сах. 200мл {39344}",
+    "product_code": "08002172",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032454"
+    }],
+    "count": "6",
+    "summa_purchase": "141.3",
+    "summa_retail": "174"
+  }, {
+    "product": "Фрутоняня  Кашка 5 Злаков с Черносливом с Молоком Обогащ. Пребиотиками с Фруктозой {с 6 мес} 0,2л {64704}",
+    "product_code": "08009274",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032461"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Фрутоняня  Кашка Овсяная с Бананом с Молоком Обогащ. Пребиот. {с 6 мес} 0,2л {43988}",
+    "product_code": "11000902",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032478"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Фрутоняня  Кашка Гречневая с Яблоком с Молоком Обогащ. Пребиотиками с Фруктозой {с 6 мес} 0,2л {44636}",
+    "product_code": "11000903",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032485"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Фрутоняня  Кашка Пшеничная с Молоком Обогащ. Пребиотиками с Фруктозой {с 6 мес} 0,2л {42516}",
+    "product_code": "11000904",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032492"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Фрутоняня  Кашка Злаковая (Гречка-Кукуруза-Рис) с Молоком Обогащ. Пребиотиками с Фруктозой {с 6 мес} 0,2л {44637}",
+    "product_code": "08009275",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032508"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Фрутоняня  Кашка Овсяная с Молоком Обогащ. Пребиотиками с Фруктозой {с 6 мес} 0,2л {63400}",
+    "product_code": "11000905",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032515"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Фрутоняня  Кашка 5 Злаков с Персиком  с Молоком Обогащ. Пребиотиками с Фруктозой {с 6 мес} 0,2л {64703}",
+    "product_code": "08009276",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032522"
+    }],
+    "count": "3",
+    "summa_purchase": "97.14",
+    "summa_retail": "117"
+  }, {
+    "product": "Горшок детский",
+    "product_code": "11001210",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100037992"
+    }],
+    "count": "1",
+    "summa_purchase": "122.11",
+    "summa_retail": "170.5"
+  }, {
+    "product": "'ROXY-KIDS' Круг на шею надувной 'FLIPER' оранж/цвет с 1,5 год {60598}",
+    "product_code": "11000906",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032546"
+    }],
+    "count": "1",
+    "summa_purchase": "476.04",
+    "summa_retail": "666"
+  }, {
+    "product": "Слинг Х   {59343}",
+    "product_code": "11000907",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032553"
+    }],
+    "count": "1",
+    "summa_purchase": "631.12",
+    "summa_retail": "900"
+  }, {
+    "product": "'ROXY-KIDS' Козырек для мытья головы 'ЯЩЕРКА' (10) 30*25*0,5 {70842}",
+    "product_code": "11000908",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032560"
+    }],
+    "count": "1",
+    "summa_purchase": "236.15",
+    "summa_retail": "331"
+  }, {
+    "product": "'KEENWAY' Робот красный с пультом управления светится и движется   {47617}",
+    "product_code": "11000909",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032577"
+    }],
+    "count": "1",
+    "summa_purchase": "700.85",
+    "summa_retail": "981"
+  }, {
+    "product": "'KEENWAY' Игрушка 'ЗАНИМАТЕЛЬНОЕ ВОЖДЕНИЕ МОТОГОНКИ' В {41057}",
+    "product_code": "11000910",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032584"
+    }],
+    "count": "1",
+    "summa_purchase": "1466.94",
+    "summa_retail": "2000"
+  }, {
+    "product": "'KEENWAY' Музыкальный обучающий столик со световыми и музыкальными эффектами   {41049}",
+    "product_code": "11000911",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032591"
+    }],
+    "count": "1",
+    "summa_purchase": "1623.9",
+    "summa_retail": "2250"
+  }, {
+    "product": "'KEENWAY' Брызгалки серии 'TOMY DISNEY' в ассортименте в дисплеи (12) 3шт {71745}",
+    "product_code": "11000912",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032607"
+    }],
+    "count": "1",
+    "summa_purchase": "134.7",
+    "summa_retail": "190"
+  }, {
+    "product": "'HUILE' Игрушка музыкальная 'СОБАЧКА' (36)   {71335}",
+    "product_code": "11000913",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032614"
+    }],
+    "count": "1",
+    "summa_purchase": "268.83",
+    "summa_retail": "376"
+  }, {
+    "product": "'HUILE' Игрушка музыкальная 'ПИРАМИДКА'   {69899}",
+    "product_code": "11000914",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032621"
+    }],
+    "count": "1",
+    "summa_purchase": "737.58",
+    "summa_retail": "1035"
+  }, {
+    "product": "'BAIRUN' Игрушка для ванной 'ПОДСОЛНУХ' (ЛЕЙКА)   {69605}",
+    "product_code": "11000915",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032638"
+    }],
+    "count": "1",
+    "summa_purchase": "603.29",
+    "summa_retail": "850"
+  }, {
+    "product": "'YAKO' Игрушка заводная 'МУРАВЕЙ' (8)   {72692}",
+    "product_code": "11000916",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032645"
+    }],
+    "count": "1",
+    "summa_purchase": "165.31",
+    "summa_retail": "231"
+  }, {
+    "product": "'YAKO' Игрушка заводная 'СОБАЧКА' (8)   {72691}",
+    "product_code": "11000917",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032652"
+    }],
+    "count": "1",
+    "summa_purchase": "140.99",
+    "summa_retail": "197"
+  }, {
+    "product": "'YAKO' Игрушка заводная 'МАМА УТКА' (12)   {72015}",
+    "product_code": "11000918",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032669"
+    }],
+    "count": "1",
+    "summa_purchase": "109.81",
+    "summa_retail": "155"
+  }, {
+    "product": "'BAIRUN'  Игрушка музыкальная 'ПАРОВОЗИК' (В комплекте: паровозик, шлагбаум две фигурки)   {69517}",
+    "product_code": "11000919",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032676"
+    }],
+    "count": "1",
+    "summa_purchase": "963.14",
+    "summa_retail": "1350"
+  }, {
+    "product": "'HUILE' Игрушка 'ЖУЧОК' со звуковыми и световыми эффектами (60)   {71328}",
+    "product_code": "11000920",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032683"
+    }],
+    "count": "1",
+    "summa_purchase": "423.39",
+    "summa_retail": "593"
+  }, {
+    "product": "'HUILE' Игрушка 'ТЕЛЕФОН' со световыми и звуковыми эффектами (1)   {72681}",
+    "product_code": "11000921",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032690"
+    }],
+    "count": "1",
+    "summa_purchase": "369.52",
+    "summa_retail": "517"
+  }, {
+    "product": "'HUILE' Игрушка-Робот 'КОСМИЧЕСКИЙ ДОКТОР' со световыми и звуковыми эффектами (48)   {71333}",
+    "product_code": "11000922",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032706"
+    }],
+    "count": "1",
+    "summa_purchase": "419.99",
+    "summa_retail": "588"
+  }, {
+    "product": "'HUILE' Игрушка 'САМОЛЕТ'   {69900}",
+    "product_code": "11000923",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032713"
+    }],
+    "count": "1",
+    "summa_purchase": "725.14",
+    "summa_retail": "1015"
+  }, {
+    "product": "'YAKO' Погремушка 'РЫБКИ' на блистере 3шт 3+ {69600}",
+    "product_code": "11000924",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032720"
+    }],
+    "count": "1",
+    "summa_purchase": "113.78",
+    "summa_retail": "159"
+  }, {
+    "product": "'YAKO' Погремушка с трещеткой (96)   {71339}",
+    "product_code": "11000925",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032737"
+    }],
+    "count": "1",
+    "summa_purchase": "116.95",
+    "summa_retail": "164"
+  }, {
+    "product": "'YAKO' Игрушка Вертолетик (работает от батареек)   {72019}",
+    "product_code": "11000926",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032744"
+    }],
+    "count": "1",
+    "summa_purchase": "426.01",
+    "summa_retail": "596"
+  }, {
+    "product": "'УМКА' Погремушка 'СОБАЧКИ' на блистере (24)   {70621}",
+    "product_code": "11000927",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032751"
+    }],
+    "count": "1",
+    "summa_purchase": "238.51",
+    "summa_retail": "334"
+  }, {
+    "product": "'УМКА' Погремушка развивающая 'ЛУНТИК' 184466 {66795}",
+    "product_code": "11000928",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032768"
+    }],
+    "count": "1",
+    "summa_purchase": "313.6",
+    "summa_retail": "440"
+  }, {
+    "product": "'УМКА' Погремушка 'ЖУК' на блистере 179264 {62787}",
+    "product_code": "11000929",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032775"
+    }],
+    "count": "1",
+    "summa_purchase": "410.38",
+    "summa_retail": "575"
+  }, {
+    "product": "'ТЕХНОК' Игрушка-сортер развивающая 'УМНЫЙ МАЛЫШ-ШАР' (18)   {71861}",
+    "product_code": "11000930",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032782"
+    }],
+    "count": "1",
+    "summa_purchase": "144.26",
+    "summa_retail": "201.5"
+  }, {
+    "product": "'CUBIKA' Игрушка логическая деревянная 'БАШНЯ' (12) 10 деталей {71799}",
+    "product_code": "11000931",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032799"
+    }],
+    "count": "1",
+    "summa_purchase": "453.11",
+    "summa_retail": "634"
+  }, {
+    "product": "'CUBIKA' Игрушка деревянная 'АКРОБАТ ЖИРАФ' (10) 14 деталей {71812}",
+    "product_code": "11000932",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032805"
+    }],
+    "count": "1",
+    "summa_purchase": "382.22",
+    "summa_retail": "535"
+  }, {
+    "product": "'КУРНОСИКИ' Набор слюнявчиков 'МОИ ПЕРВЫЕ ДРУЗЬЯ' (36) 2шт 3+ {27978}",
+    "product_code": "11000933",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032812"
+    }],
+    "count": "1",
+    "summa_purchase": "120.21",
+    "summa_retail": "168"
+  }, {
+    "product": "КУРНОСИКИ Термометр для ванной 'Обезьяна' (24)   {15401}",
+    "product_code": "08001910",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032829"
+    }],
+    "count": "1",
+    "summa_purchase": "88.77",
+    "summa_retail": "124"
+  }, {
+    "product": "КУРНОСИКИ Термометр для ванной 'Китенок' (12)   {47522}",
+    "product_code": "08001911",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032836"
+    }],
+    "count": "1",
+    "summa_purchase": "80.61",
+    "summa_retail": "113"
+  }, {
+    "product": "'КУРНОСИКИ' Аспиратор назальный с мягкой силиконовой насадкой  (12) А0+ {69733}",
+    "product_code": "11000934",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032843"
+    }],
+    "count": "1",
+    "summa_purchase": "73.45",
+    "summa_retail": "103"
+  }, {
+    "product": "'КУРНОСИКИ' Молокоотсос ручной (22)   {72110}",
+    "product_code": "11000935",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032850"
+    }],
+    "count": "1",
+    "summa_purchase": "96.03",
+    "summa_retail": "134"
+  }, {
+    "product": "КУРНОСИКИ Зубная щетка 'Мишутка' (24) 6+   {15406}",
+    "product_code": "08001913",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032867"
+    }],
+    "count": "1",
+    "summa_purchase": "78.98",
+    "summa_retail": "111"
+  }, {
+    "product": "МИР ДЕТСТВА Набор расческа и щетка с натуральной щетиной (24) 0 мес.   {41366}",
+    "product_code": "08005281",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032874"
+    }],
+    "count": "1",
+    "summa_purchase": "91.35",
+    "summa_retail": "128"
+  }, {
+    "product": "'КУРНОСИКИ' Ножницы маникюрные детские (12) 0+ {15127}",
+    "product_code": "11000936",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032881"
+    }],
+    "count": "1",
+    "summa_purchase": "75.59",
+    "summa_retail": "106"
+  }, {
+    "product": "КУРНОСИКИ Ершик комбинированный для бут. и сосок (24)   {23393}",
+    "product_code": "08001923",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032898"
+    }],
+    "count": "1",
+    "summa_purchase": "61.94",
+    "summa_retail": "90"
+  }, {
+    "product": "'КУРНОСИКИ' Набор расческа и щетка 'АФРИКА' (12) 4+ {59026}",
+    "product_code": "11000937",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032904"
+    }],
+    "count": "1",
+    "summa_purchase": "107.6",
+    "summa_retail": "151"
+  }, {
+    "product": "'КУРНОСИКИ' Щипчики для ногтей (24) 0+ {69614}",
+    "product_code": "11000938",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032911"
+    }],
+    "count": "1",
+    "summa_purchase": "62.15",
+    "summa_retail": "90"
+  }, {
+    "product": "'КУРНОСИКИ' Пустышка 'МАШИНКА' силиконовая классическая без кольца (12) 1шт 6+ {59030}",
+    "product_code": "11000939",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032928"
+    }],
+    "count": "1",
+    "summa_purchase": "67.67",
+    "summa_retail": "95"
+  }, {
+    "product": "'КУРНОСИКИ' Пустышка 'КАРАМЕЛЬ' силиконовая классическая (12) 1шт 0+ {62693}",
+    "product_code": "11000940",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032935"
+    }],
+    "count": "1",
+    "summa_purchase": "63.28",
+    "summa_retail": "90"
+  }, {
+    "product": "'КУРНОСИКИ' Пустышка 'МИШКА' латексная классическая (12) 1шт 6+ {25626}",
+    "product_code": "11000941",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032942"
+    }],
+    "count": "1",
+    "summa_purchase": "58.66",
+    "summa_retail": "82"
+  }, {
+    "product": "'КУРНОСИКИ' Прищепка с цепочкой 'ЦВЕТОЧЕК' для пустышки (12) 0+ {32040}",
+    "product_code": "11000942",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032959"
+    }],
+    "count": "1",
+    "summa_purchase": "61.51",
+    "summa_retail": "86"
+  }, {
+    "product": "'КУРНОСИКИ' Прищепка с цепочкой 'МИШУТКА' для пустышки  (30) А0+ {67792}",
+    "product_code": "11000943",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032966"
+    }],
+    "count": "1",
+    "summa_purchase": "56.49",
+    "summa_retail": "79"
+  }, {
+    "product": "'КУРНОСИКИ' Кружка детская 'САФАРИ' (24) 200мл 12+ {15679}",
+    "product_code": "11000944",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032973"
+    }],
+    "count": "1",
+    "summa_purchase": "90.39",
+    "summa_retail": "127"
+  }, {
+    "product": "'КУРНОСИКИ' Кружка детская с ручкой (24) 200мл 12+ {69854}",
+    "product_code": "11000945",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032980"
+    }],
+    "count": "1",
+    "summa_purchase": "92.34",
+    "summa_retail": "130"
+  }, {
+    "product": "'КУРНОСИКИ' Поильник-непроливайка с ручками (12) 200мл 6+ {70024}",
+    "product_code": "11000946",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100032997"
+    }],
+    "count": "1",
+    "summa_purchase": "101.68",
+    "summa_retail": "142"
+  }, {
+    "product": "'КУРНОСИКИ' Поильник 'МОИ ПЕРВЫЕ ДРУЗЬЯ' маленький учебный (12) 125мл 4+ {41915}",
+    "product_code": "11000947",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033000"
+    }],
+    "count": "1",
+    "summa_purchase": "79.17",
+    "summa_retail": "111"
+  }, {
+    "product": "'КУРНОСИКИ' Тарелочка двухсекционная с крышкой и ложечкой (12) А4+ {59029}",
+    "product_code": "11000948",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033017"
+    }],
+    "count": "1",
+    "summa_purchase": "112.67",
+    "summa_retail": "158"
+  }, {
+    "product": "'КУРНОСИКИ' Набор ложечек для кормления (12) 2шт 4+ {69383}",
+    "product_code": "11000949",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033024"
+    }],
+    "count": "1",
+    "summa_purchase": "31.63",
+    "summa_retail": "50"
+  }, {
+    "product": "'КУРНОСИКИ' Ложечка для кормления термочувствительная (12) А2шт 4+ {41631}",
+    "product_code": "11000950",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033031"
+    }],
+    "count": "1",
+    "summa_purchase": "91.93",
+    "summa_retail": "130"
+  }, {
+    "product": "'КУРНОСИКИ' Контейнер для стандартной бутылочки (12) 0+ {15411}",
+    "product_code": "11000951",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033048"
+    }],
+    "count": "1",
+    "summa_purchase": "137.41",
+    "summa_retail": "192"
+  }, {
+    "product": "'КУРНОСИКИ' Прорезыватель 'ЯБЛОКО/РЫБКА' (24) 4+ {15131}",
+    "product_code": "11000952",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033055"
+    }],
+    "count": "1",
+    "summa_purchase": "54.57",
+    "summa_retail": "80"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка-прорезыватель 'ВОСЬМЕРКА' (12) А4+ {15133}",
+    "product_code": "11000953",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033062"
+    }],
+    "count": "1",
+    "summa_purchase": "60.03",
+    "summa_retail": "85"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка-погремушка 'ФРУКТОВАЯ КОРЗИНКА' (24) 4+ {26470}",
+    "product_code": "11000954",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033079"
+    }],
+    "count": "1",
+    "summa_purchase": "76.83",
+    "summa_retail": "110"
+  }, {
+    "product": "'КУРНОСИКИ' Прорезыватель 'РЫБКА' (12) 4+ {38190}",
+    "product_code": "11000955",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033086"
+    }],
+    "count": "1",
+    "summa_purchase": "80.22",
+    "summa_retail": "112"
+  }, {
+    "product": "'КУРНОСИКИ' Прорезыватель 'ЛЯГУШКА' (12) 4+ {38192}",
+    "product_code": "11000956",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033093"
+    }],
+    "count": "1",
+    "summa_purchase": "80.22",
+    "summa_retail": "112"
+  }, {
+    "product": "'КУРНОСИКИ' Соска силиконовая большого размера для каш  х-обр отверстием (72) А2шт 6+ {18951}",
+    "product_code": "11000957",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033109"
+    }],
+    "count": "1",
+    "summa_purchase": "49.83",
+    "summa_retail": "70"
+  }, {
+    "product": "'КУРНОСИКИ' Соска силиконовая классическая (72) 2шт 0+ {66441}",
+    "product_code": "11000958",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033116"
+    }],
+    "count": "1",
+    "summa_purchase": "42.34",
+    "summa_retail": "60"
+  }, {
+    "product": "'КУРНОСИКИ' Соска силиконовая классическая (72) 2шт 6+ {66442}",
+    "product_code": "11000959",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033123"
+    }],
+    "count": "1",
+    "summa_purchase": "49.82",
+    "summa_retail": "70"
+  }, {
+    "product": "'КУРНОСИКИ' Соска латексная большого размера для каш х-обр отверстием (72) 2шт 6+ {18963}",
+    "product_code": "11000960",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033130"
+    }],
+    "count": "1",
+    "summa_purchase": "51.97",
+    "summa_retail": "75"
+  }, {
+    "product": "'КУРНОСИКИ' Соска латексная большого размера для молока (72) 2шт 6+ {18964}",
+    "product_code": "11000961",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033147"
+    }],
+    "count": "1",
+    "summa_purchase": "51.97",
+    "summa_retail": "75"
+  }, {
+    "product": "'КУРНОСИКИ' Соска латексная стандартного размера (72) 2шт 0+ {18965}",
+    "product_code": "11000962",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033154"
+    }],
+    "count": "1",
+    "summa_purchase": "51.97",
+    "summa_retail": "75"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка  из ПП с ручками и с силиконовой соской (12) 125мл 6+ {15114}",
+    "product_code": "11000963",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033161"
+    }],
+    "count": "1",
+    "summa_purchase": "77.99",
+    "summa_retail": "110"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка  из ПП с латексной соской (12) 125мл 0+ {15657}",
+    "product_code": "11000964",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033178"
+    }],
+    "count": "1",
+    "summa_purchase": "57.93",
+    "summa_retail": "81"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка  из ПП с ручками и с силиконовой соской (12) 250мл 6+ {15658}",
+    "product_code": "11000965",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033185"
+    }],
+    "count": "1",
+    "summa_purchase": "84.11",
+    "summa_retail": "118"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка  из ПП с латексной соской (12) 250мл 0+ {15116}",
+    "product_code": "11000966",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033192"
+    }],
+    "count": "1",
+    "summa_purchase": "62.91",
+    "summa_retail": "88"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка 'ЗВЕРЯТА' из ПП с двумя силиконовыми сосками (12) 250мл 0+ {72688}",
+    "product_code": "11000967",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033208"
+    }],
+    "count": "1",
+    "summa_purchase": "93.78",
+    "summa_retail": "131"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка 'ЗВЕРЯТА' из ПП с двумя силиконовыми сосками (12) 120мл 0+ {72689}",
+    "product_code": "11000968",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033215"
+    }],
+    "count": "1",
+    "summa_purchase": "85.87",
+    "summa_retail": "120"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка 'ЗОЛОТАЯ РЫБКА' из ПП с силиконовой соской  (12) А250мл 0+ {59233}",
+    "product_code": "11000969",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033222"
+    }],
+    "count": "1",
+    "summa_purchase": "61.42",
+    "summa_retail": "86"
+  }, {
+    "product": "'КУРНОСИКИ' Бутылочка 'ЗОЛОТАЯ РЫБКА' из ПП с силиконовой соской (12) А125мл 0+ {59234}",
+    "product_code": "11000970",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033239"
+    }],
+    "count": "1",
+    "summa_purchase": "61.43",
+    "summa_retail": "86"
+  }, {
+    "product": "'AVENT' Соска ' CLASSIC+' для новорожденных силиконовая медленный поток (12) 0+ 2шт {17564}",
+    "product_code": "11000971",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033246"
+    }],
+    "count": "1",
+    "summa_purchase": "246.72",
+    "summa_retail": "345"
+  }, {
+    "product": "'AVENT' Соска 'STANDARD ESSENTIAL' силиконовая медленный поток (12) 3+ 2шт {64828}",
+    "product_code": "11000972",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033253"
+    }],
+    "count": "1",
+    "summa_purchase": "139.81",
+    "summa_retail": "196"
+  }, {
+    "product": "'AVENT' Соска 'STANDARD ESSENTIAL' силиконовая средний поток (12) 3+ 2шт {64829}",
+    "product_code": "11000973",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033260"
+    }],
+    "count": "1",
+    "summa_purchase": "139.81",
+    "summa_retail": "196"
+  }, {
+    "product": "'AVENT' Соска 'STANDARD ESSENTIAL' силиконовая быстрый поток (12) 6+ 2шт {64830}",
+    "product_code": "11000974",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033277"
+    }],
+    "count": "1",
+    "summa_purchase": "139.81",
+    "summa_retail": "196"
+  }, {
+    "product": "'AVENT' Соска 'STANDARD ESSENTIAL' силиконовая  для густых смесей (12) 6+ 2шт {64831}",
+    "product_code": "11000975",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033284"
+    }],
+    "count": "1",
+    "summa_purchase": "139.81",
+    "summa_retail": "196"
+  }, {
+    "product": "'AVENT' Пустышка 'ДИЗАЙН' силиконовая для девочки (12) 0-6мес 2шт {72642}",
+    "product_code": "11000976",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033291"
+    }],
+    "count": "1",
+    "summa_purchase": "404.61",
+    "summa_retail": "554"
+  }, {
+    "product": "'AVENT' Пустышка 'FREE FLOW DISIGN' силиконовая дизайнерская для мальчика (6) 6-18мес 2шт {71766}",
+    "product_code": "11000977",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033307"
+    }],
+    "count": "1",
+    "summa_purchase": "404.61",
+    "summa_retail": "554"
+  }, {
+    "product": "'AVENT' Пустышка 'FREE FLOW DISIGN' силиконовая дизайнерская для девочки (6) 6-18мес 2шт {71767}",
+    "product_code": "11000978",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033314"
+    }],
+    "count": "1",
+    "summa_purchase": "404.61",
+    "summa_retail": "554"
+  }, {
+    "product": "'AVENT' Пустышка силиконовая ночная для девочки (6) 0-6мес 2шт {72643}",
+    "product_code": "11000979",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033321"
+    }],
+    "count": "1",
+    "summa_purchase": "434.85",
+    "summa_retail": "596"
+  }, {
+    "product": "'AVENT' Тарелка с разделителями для порций (6) 12+ {48581}",
+    "product_code": "11000980",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033338"
+    }],
+    "count": "1",
+    "summa_purchase": "383.84",
+    "summa_retail": "526"
+  }, {
+    "product": "'AVENT' Ложка силиконовая для прикорма (6) 1шт 6+ {67063}",
+    "product_code": "11000981",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033345"
+    }],
+    "count": "1",
+    "summa_purchase": "430.23",
+    "summa_retail": "589"
+  }, {
+    "product": "'AVENT' Поильник Чашка-непроливайка 'CОMFORT' с носиком (зеленый фиолетовый) (6) 200мл 6+ {64269}",
+    "product_code": "11000982",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033352"
+    }],
+    "count": "1",
+    "summa_purchase": "271.4",
+    "summa_retail": "372"
+  }, {
+    "product": "'AVENT' Чашка-непроливайка 'COMFORT' с носиком (красный зеленый) (12) 260мл 12+ {64268}",
+    "product_code": "11000983",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033369"
+    }],
+    "count": "1",
+    "summa_purchase": "304.29",
+    "summa_retail": "417"
+  }, {
+    "product": "'AVENT' Щетка для мытья бутылок и сосок (6)   {17595}",
+    "product_code": "11000984",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033376"
+    }],
+    "count": "1",
+    "summa_purchase": "396.62",
+    "summa_retail": "543"
+  }, {
+    "product": "'LUBBY' Пустышка 'ЦВЕТОЧЕК' латексная скошенная (24) 0+ {69441}",
+    "product_code": "11000985",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033383"
+    }],
+    "count": "1",
+    "summa_purchase": "78.57",
+    "summa_retail": "110"
+  }, {
+    "product": "'LUBBY' Пустышка 'ВЕСЕЛЫЕ ЖИВОТНЫЕ' латексная симметричная (12) 0+ {69438}",
+    "product_code": "11000986",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033390"
+    }],
+    "count": "1",
+    "summa_purchase": "112.9",
+    "summa_retail": "158"
+  }, {
+    "product": "'LUBBY' Пустышка 'ВЕСЕЛЫЕ ЖИВОТНЫЕ' латексная симметричная (12) 6+ {69439}",
+    "product_code": "11000987",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033406"
+    }],
+    "count": "1",
+    "summa_purchase": "112.9",
+    "summa_retail": "158"
+  }, {
+    "product": "'LUBBY' Пустышка 'МАЛЫШИ И МАЛЫШКИ' силиконовая симметричная (12) 0+ {69434}",
+    "product_code": "11000988",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033413"
+    }],
+    "count": "1",
+    "summa_purchase": "112.9",
+    "summa_retail": "158"
+  }, {
+    "product": "'LUBBY' Соска латексная размер- 'Х' быстрый поток (12) 2шт 6+ {69427}",
+    "product_code": "11000989",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033420"
+    }],
+    "count": "1",
+    "summa_purchase": "62.09",
+    "summa_retail": "90"
+  }, {
+    "product": "'LUBBY' Соска латексная размер- 'М' средний поток (12) 2шт 3+ {69429}",
+    "product_code": "11000990",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033437"
+    }],
+    "count": "1",
+    "summa_purchase": "62.09",
+    "summa_retail": "90"
+  }, {
+    "product": "'LUBBY' Соска силиконовая размер- ' Х' быстрый поток (12) 2шт 6+ {69422}",
+    "product_code": "11000991",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033444"
+    }],
+    "count": "1",
+    "summa_purchase": "62.09",
+    "summa_retail": "90"
+  }, {
+    "product": "'LUBBY' Клипса 'ЗАЙЧИК' для пустышки на цепочке (24) 0+ {69963}",
+    "product_code": "11000992",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033451"
+    }],
+    "count": "1",
+    "summa_purchase": "65.45",
+    "summa_retail": "92"
+  }, {
+    "product": "'LUBBY' Клипса 'СЛОНИК' для пустышки на цепочке (24) 0+ {69444}",
+    "product_code": "11000993",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033468"
+    }],
+    "count": "1",
+    "summa_purchase": "65.45",
+    "summa_retail": "92"
+  }, {
+    "product": "'LUBBY' Пустышка 'РУССКИЕ МОТИВЫ' силиконовая скошенная (12) 6+ {69437}",
+    "product_code": "11000994",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033475"
+    }],
+    "count": "1",
+    "summa_purchase": "112.9",
+    "summa_retail": "158"
+  }, {
+    "product": "'LUBBY' Пустышка 'НЕЖНАЯ ДЛЯ СНА' силиконовая  скошенная (12) 0+ {69433}",
+    "product_code": "11000995",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033482"
+    }],
+    "count": "1",
+    "summa_purchase": "122.3",
+    "summa_retail": "171"
+  }, {
+    "product": "'BUBCHEN' Шампунь опаласкиватель и гель для душа 3 в 1'БЯКИ-ЗАБИЯКИ' (8) 230мл с 3-х лет {66757}",
+    "product_code": "11000996",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033499"
+    }],
+    "count": "1",
+    "summa_purchase": "190.68",
+    "summa_retail": "267"
+  }, {
+    "product": "MEPSI  Детский Гель для мытья посуды, фруктов, овощей и игрушек 550 мл {72826}",
+    "product_code": "11000997",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033505"
+    }],
+    "count": "1",
+    "summa_purchase": "106.41",
+    "summa_retail": "150"
+  }, {
+    "product": "'МАМА КОМФОРТ' Бальзам-гель от растяжек (10) 175мл {34043}",
+    "product_code": "11000998",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033512"
+    }],
+    "count": "1",
+    "summa_purchase": "318.61",
+    "summa_retail": "446"
+  }, {
+    "product": "'НАША МАМА' Детское мыло туалетное с  КАЛЕНДУЛОЙ И РОМАШКОЙ (30) 90гр {70377}",
+    "product_code": "11000999",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033529"
+    }],
+    "count": "2",
+    "summa_purchase": "34.32",
+    "summa_retail": "50"
+  }, {
+    "product": "'НАША МАМА' Детское мыло туалетное с КОМПЛЕКСОМ ВИТАМИНОВ (30) 90гр {70376}",
+    "product_code": "11001000",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033536"
+    }],
+    "count": "2",
+    "summa_purchase": "34.32",
+    "summa_retail": "50"
+  }, {
+    "product": "'НАША МАМА' Детское мыло туалетное с ЧЕРЕДОЙ И РОМАШКОЙ для чувствительной и проблемной кожи (30) 90гр {70378}",
+    "product_code": "11001001",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033543"
+    }],
+    "count": "2",
+    "summa_purchase": "34.68",
+    "summa_retail": "50"
+  }, {
+    "product": "'НАША МАМА' Детский крем для прогулок (10) 100мл {19096}",
+    "product_code": "11001002",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033550"
+    }],
+    "count": "1",
+    "summa_purchase": "125.6",
+    "summa_retail": "176"
+  }, {
+    "product": "'НАША МАМА' Волшебная пенка для купания с головы до пяточек (10) 150мл {24864}",
+    "product_code": "11001003",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033567"
+    }],
+    "count": "1",
+    "summa_purchase": "106.07",
+    "summa_retail": "150"
+  }, {
+    "product": "'НАША МАМА' Шампунь детский (10) 150мл {135}",
+    "product_code": "11001004",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033574"
+    }],
+    "count": "1",
+    "summa_purchase": "52.73",
+    "summa_retail": "75"
+  }, {
+    "product": "'НАША МАМА' Шампунь детский (10) 300мл {136}",
+    "product_code": "11001005",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033581"
+    }],
+    "count": "1",
+    "summa_purchase": "86.51",
+    "summa_retail": "121"
+  }, {
+    "product": "'НАША МАМА' Детское средство для мытья посуды (10) 500мл {22856}",
+    "product_code": "11001006",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033598"
+    }],
+    "count": "1",
+    "summa_purchase": "111.93",
+    "summa_retail": "157"
+  }, {
+    "product": "'НАША МАМА' Детский гель для купания мягкого действия (10) 250 мл {45488}",
+    "product_code": "08002095",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033604"
+    }],
+    "count": "1",
+    "summa_purchase": "75.72",
+    "summa_retail": "106"
+  }, {
+    "product": "'НАША МАМА' Пена для ванны детская д/чувст. кожи(10) 300 мл {124}",
+    "product_code": "08002096",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033611"
+    }],
+    "count": "1",
+    "summa_purchase": "72.07",
+    "summa_retail": "100"
+  }, {
+    "product": "'НАША МАМА' Пена для ванны детская д/чувст. кожи(10) 300 мл {124}",
+    "product_code": "08002096",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033628"
+    }],
+    "count": "1",
+    "summa_purchase": "65.7",
+    "summa_retail": "92"
+  }, {
+    "product": "'НАША МАМА' Детское молочко увлажняющее и успокаивающее после загара (10) 100мл 18+ {45500}",
+    "product_code": "11001007",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033635"
+    }],
+    "count": "1",
+    "summa_purchase": "98.8",
+    "summa_retail": "138"
+  }, {
+    "product": "'НАША МАМА' Детская присыпка (12) 100г {132}",
+    "product_code": "11001008",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033642"
+    }],
+    "count": "1",
+    "summa_purchase": "117.93",
+    "summa_retail": "165"
+  }, {
+    "product": "'BABYLINE NATURE' Детский крем нежное увлажнение (12) 125мл {72661}",
+    "product_code": "11001009",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033659"
+    }],
+    "count": "1",
+    "summa_purchase": "106.73",
+    "summa_retail": "150"
+  }, {
+    "product": "'BABYLINE NATURE' Средство для купания и шампунь с морскими водорослями (12) 260мл {66844}",
+    "product_code": "11001010",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033666"
+    }],
+    "count": "1",
+    "summa_purchase": "134.8",
+    "summa_retail": "190"
+  }, {
+    "product": "'BABYLINE NATURE' Средство для купания и шампунь с маслом оливы (12)  260мл {66845}",
+    "product_code": "11001011",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033673"
+    }],
+    "count": "1",
+    "summa_purchase": "134.8",
+    "summa_retail": "190"
+  }, {
+    "product": "'BABYLINE NATURE' Детская присыпка с сосновой пыльцой (12) 125гр {66862}",
+    "product_code": "11001012",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033680"
+    }],
+    "count": "1",
+    "summa_purchase": "113.38",
+    "summa_retail": "160"
+  }, {
+    "product": "'BABYLINE NATURE' Детская присыпка с цинком (12) 125гр {66871}",
+    "product_code": "11001013",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033697"
+    }],
+    "count": "1",
+    "summa_purchase": "113.38",
+    "summa_retail": "160"
+  }, {
+    "product": "Mepsi Влажные салфетки детские  (72 шт.) 72 шт {67654}",
+    "product_code": "11001014",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033703"
+    }],
+    "count": "1",
+    "summa_purchase": "76.82",
+    "summa_retail": "108"
+  }, {
+    "product": "Mepsi Влажные салфетки детские (20 шт.) 20шт {67653}",
+    "product_code": "11001015",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033710"
+    }],
+    "count": "1",
+    "summa_purchase": "22.93",
+    "summa_retail": "32"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка-погремушка 'ПЕТЯ-ПЕТУШОК' (24) 6+ {32362}",
+    "product_code": "11001016",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033727"
+    }],
+    "count": "1",
+    "summa_purchase": "74.68",
+    "summa_retail": "105"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка-погремушка 'КОРОВКА С КОЛЕЧКАМИ' (24) 6+ {32364}",
+    "product_code": "11001017",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033734"
+    }],
+    "count": "1",
+    "summa_purchase": "74.96",
+    "summa_retail": "105"
+  }, {
+    "product": "'КУРНОСИКИ' Набор игрушек 'КРЯ-КРЯ' из ПВХ (24) А3шт 6+ {69339}",
+    "product_code": "11001018",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033741"
+    }],
+    "count": "1",
+    "summa_purchase": "164.08",
+    "summa_retail": "230"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка для ванны 'СВЕТЯЩИЙСЯ УТЕНОК' (10) 6+ {69837}",
+    "product_code": "11001019",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033758"
+    }],
+    "count": "1",
+    "summa_purchase": "122.15",
+    "summa_retail": "171"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка для ванной 'СЕМЕЙКА ЧЕРЕПАШЕК' (12) 4шт 6+ {23467}",
+    "product_code": "11001020",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033765"
+    }],
+    "count": "1",
+    "summa_purchase": "293.89",
+    "summa_retail": "411"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка для ванной 'СЕМЕЙКА ДЕЛЬФИНОВ' (12) 4шт 6+ {23185}",
+    "product_code": "11001021",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033772"
+    }],
+    "count": "1",
+    "summa_purchase": "306.02",
+    "summa_retail": "428"
+  }, {
+    "product": "'КУРНОСИКИ' Игрушка для ванной 'ПУПСИК В ШТАНИШКАХ' (12) 6+ {32384}",
+    "product_code": "11001022",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033789"
+    }],
+    "count": "1",
+    "summa_purchase": "96.54",
+    "summa_retail": "135"
+  }, {
+    "product": "'BABYLINE' Прокладки для груди впитывающие (12) 30шт {28744}",
+    "product_code": "11001023",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033796"
+    }],
+    "count": "1",
+    "summa_purchase": "167.92",
+    "summa_retail": "235"
+  }, {
+    "product": "'BABYLINE' Прокладки для груди (6) 60шт {28748}",
+    "product_code": "11001024",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033802"
+    }],
+    "count": "1",
+    "summa_purchase": "295.37",
+    "summa_retail": "410"
+  }, {
+    "product": "'BABYLINE' Влажные салфетки 'КОМФОРТ SENSITIVE' (12) 80шт {28740}",
+    "product_code": "11001025",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033819"
+    }],
+    "count": "1",
+    "summa_purchase": "161.76",
+    "summa_retail": "226"
+  }, {
+    "product": "'BABYLINE' Гель для купания малыша (10) 500мл {28717}",
+    "product_code": "11001026",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033826"
+    }],
+    "count": "1",
+    "summa_purchase": "246.33",
+    "summa_retail": "345"
+  }, {
+    "product": "'BABYLINE' Крем от опрелостей под подгузник (12) 150мл {28723}",
+    "product_code": "11001027",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033833"
+    }],
+    "count": "1",
+    "summa_purchase": "188.11",
+    "summa_retail": "263"
+  }, {
+    "product": "'BABYLINE' Ватные палочки со спиралевидной намоткой в пластиковой банке (18) 150шт {51678}",
+    "product_code": "11001028",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033840"
+    }],
+    "count": "1",
+    "summa_purchase": "82.12",
+    "summa_retail": "115"
+  }, {
+    "product": "'BABYLINE' Детская губка для мытья и массажа с экстр алоэ вера (12)   {60035}",
+    "product_code": "11001029",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033857"
+    }],
+    "count": "1",
+    "summa_purchase": "143.76",
+    "summa_retail": "201"
+  }, {
+    "product": "'BABYLINE' Детская губка для мытья и массажа с минер комплексом (12)   {60036}",
+    "product_code": "11001030",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033864"
+    }],
+    "count": "1",
+    "summa_purchase": "143.76",
+    "summa_retail": "201"
+  }, {
+    "product": "'BUBCHEN' Детская Присыпка (12) 100г 0+ {30149}",
+    "product_code": "11001031",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033871"
+    }],
+    "count": "1",
+    "summa_purchase": "162.94",
+    "summa_retail": "228"
+  }, {
+    "product": "БЮБХЕН  Средство для Купания Младенцев (8) 200мл {30}",
+    "product_code": "08002128",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033888"
+    }],
+    "count": "1",
+    "summa_purchase": "161.15",
+    "summa_retail": "226"
+  }, {
+    "product": "БЮБХЕН  Масло (8) 200 мл {20}",
+    "product_code": "08002127",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100037985"
+    }],
+    "count": "1",
+    "summa_purchase": "161.15",
+    "summa_retail": "226"
+  }, {
+    "product": "БЮБХЕН  Крем для Младенцев под подгузник (10) 150мл. {13}",
+    "product_code": "08002131",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033901"
+    }],
+    "count": "1",
+    "summa_purchase": "204.26",
+    "summa_retail": "286"
+  }, {
+    "product": "'BUBCHEN' Крем при ветре и непогоде (8) 75мл 0+ {62623}",
+    "product_code": "11001032",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033918"
+    }],
+    "count": "1",
+    "summa_purchase": "171.78",
+    "summa_retail": "240"
+  }, {
+    "product": "БЮБХЕН  Детский Косметический Крем  (12) 75мл. {9}",
+    "product_code": "08002133",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033925"
+    }],
+    "count": "1",
+    "summa_purchase": "139.71",
+    "summa_retail": "196"
+  }, {
+    "product": "БЮБХЕН  Увлажняющий НЕЖНЫЙ Крем с рождения в тубе (8) 75мл. {40024}",
+    "product_code": "08002134",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033932"
+    }],
+    "count": "1",
+    "summa_purchase": "139.73",
+    "summa_retail": "196"
+  }, {
+    "product": "Конфеты Bon Pastil тонизирующие 'Черный Чай с Лимоном'  (8*1,5) 12гр {69667}",
+    "product_code": "11001033",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033949"
+    }],
+    "count": "5",
+    "summa_purchase": "137.6",
+    "summa_retail": "200"
+  }, {
+    "product": "Конфеты Bon Pastil тонизирующие 'Зеленый Чай с Лимоном'  (8*1,5) 12гр {69671}",
+    "product_code": "11001034",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033956"
+    }],
+    "count": "5",
+    "summa_purchase": "137.6",
+    "summa_retail": "200"
+  }, {
+    "product": "Конфеты Bon Pastil освежающие 'Мохито'  (8*1,5) 12гр {69670}",
+    "product_code": "11001035",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033963"
+    }],
+    "count": "5",
+    "summa_purchase": "137.6",
+    "summa_retail": "200"
+  }, {
+    "product": "Конфеты Bon Pastil освежающие 'Апельсин'  (8*1,5) 12гр {69668}",
+    "product_code": "11001036",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033970"
+    }],
+    "count": "5",
+    "summa_purchase": "137.6",
+    "summa_retail": "200"
+  }, {
+    "product": "БАД к пище Конфеты Бон Пастиль Фруктовая Мякоть 'Ананас'  (8*1,5) 12гр {71973}",
+    "product_code": "11001037",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033987"
+    }],
+    "count": "3",
+    "summa_purchase": "99.36",
+    "summa_retail": "138"
+  }, {
+    "product": "БАД к пище Конфеты Бон Пастиль Фруктовая Мякоть 'Банан'  (8*1,5) 12гр {71974}",
+    "product_code": "11001038",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100033994"
+    }],
+    "count": "3",
+    "summa_purchase": "99.36",
+    "summa_retail": "138"
+  }, {
+    "product": "БАД к пище Конфеты Бон Пастиль Фруктовая Мякоть 'Манго'  (8*1,5) 12гр {71975}",
+    "product_code": "11001039",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100034007"
+    }],
+    "count": "4",
+    "summa_purchase": "132.48",
+    "summa_retail": "184"
+  }, {
+    "product": "VIVO/ВИВО Закваска 'Бифивит' пакет 4шт. 0,5г {68728}",
+    "product_code": "11001040",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100034014"
+    }],
+    "count": "4",
+    "summa_purchase": "252.56",
+    "summa_retail": "400"
+  }, {
+    "product": "VIVO/ВИВО Закваска 'Иммуновит' пакет 4шт. 0,5г {68726}",
+    "product_code": "11001041",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100034021"
+    }],
+    "count": "4",
+    "summa_purchase": "252.56",
+    "summa_retail": "400"
+  }, {
+    "product": "VIVO/ВИВО Закваска 'Виталакт' пакет 4шт. 0,5г {68637}",
+    "product_code": "11001042",
+    "vital": "false",
+    "ean": [{
+      "barcode": "1101100034038"
+    }],
+    "count": "4",
+    "summa_purchase": "252.56",
+    "summa_retail": "400"
+  }]
+}

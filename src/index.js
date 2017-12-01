@@ -12,7 +12,8 @@ mongoose.connect(config.mongoURI, { useMongoClient: true }, err => {
 });
 
 const app = express();
-app.use(bodyParser.json());
+app.use(bodyParser.json({ limit: '50mb' }));
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
 // routes
 app.use('/api/drugstores', DocsDrugstoreRoutes);
