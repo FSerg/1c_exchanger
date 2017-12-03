@@ -22,7 +22,8 @@ const docSchema = new Schema({
     shop: String,
     undocumented: Boolean,
     summa_doc_purchase: Number,
-    summa_doc_retail: Number
+    summa_doc_retail: Number,
+    comment: String
   },
   positions: [
     {

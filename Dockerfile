@@ -1,5 +1,7 @@
 FROM node:alpine
 
+RUN apk add --no-cache tzdata
+
 # Commands will run in this directory
 WORKDIR /app
 

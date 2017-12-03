@@ -11,18 +11,18 @@ const docSchema = new Schema({
   moment_of_changes: { type: Date, index: true },
   head: {
     organization_inn: String,
+    partner: String,
+    partner_inn: String,
+    partner_kpp: String,
+    contract: String,
+    contract_number: String,
+    contract_date: String,
     shop: String,
+    type_doc: String,
     summa_doc: Number,
+    summa_doc_retail: Number,
     comment: String
   },
-  receipts: [
-    {
-      _id: false,
-      revenue_name: String,
-      is_cash: Boolean,
-      summa: Number
-    }
-  ],
   positions: [
     {
       _id: false,
@@ -35,15 +35,13 @@ const docSchema = new Schema({
           barcode: String
         }
       ],
-      quantity: Number,
-      price: Number,
-      summa_origianl: Number,
-      summa_real: Number,
-      summa_discount: Number
+      count: Number,
+      summa: Number,
+      summa_retail: Number
     }
   ],
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('DocsReceiptsDrugstore', docSchema);
+module.exports = mongoose.model('DocsSaleDrugstore', docSchema);

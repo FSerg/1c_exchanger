@@ -4,6 +4,7 @@ import bearer from '../middlewares/bearer';
 
 import DocsInvoiceDrugstore from '../models/DocsInvoiceDrugstore';
 import DocsReceiptsDrugstore from '../models/DocsReceiptsDrugstore';
+import DocsSaleDrugstore from '../models/DocsSaleDrugstore';
 
 const router = express.Router();
 
@@ -98,6 +99,58 @@ router.get('/receipts', bearer, (req, res) => {
       foreignField: '_id',
       as: 'original_doc'
     })
+    .exec((err, results) => {
+      if (err) {
+        console.error(err);
+        res.status(400).send({ result: err });
+      } else {
+        res.status(200).send({
+          result: results.map(item => item.original_doc[0])
+        });
+      }
+    });
+});
+
+router.post('/sales', bearer, (req, res) => {
+  console.log('Sales from 1C:');
+  console.log(req.body);
+
+  const newSaleDoc = new DocsSaleDrugstore(req.body);
+  newSaleDoc.save(err => {
+    if (err) {
+      console.error(err);
+      res.status(400).send({ result: 'error' });
+    } else {
+      // console.log('Invoices DONE!');
+      res.status(200).send({ result: 'success' });
+    }
+  });
+});
+
+router.get('/sales', bearer, (req, res) => {
+  console.log('GET Sales!');
+  console.log(req.query);
+
+  if (req.query === undefined) {
+    const errorMessage = 'Empty query to get Sales from Drugstore!';
+    console.error(errorMessage);
+    res.status(400).send({ result: errorMessage });
+  }
+
+  const data1 = new Date(req.query.date_begin);
+  const data2 = new Date(req.query.date_end);
+
+  DocsSaleDrugstore.aggregate()
+    .match({ date: { $gte: data1, $lt: data2 } })
+    .sort({ moment_of_changes: -1 })
+    .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
+    .lookup({
+      from: 'docssaledrugstores',
+      localField: 'originalId',
+      foreignField: '_id',
+      as: 'original_doc'
+    })
+    .project({ 'original_doc.positions': 0 })
     .exec((err, results) => {
       if (err) {
         console.error(err);
