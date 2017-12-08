@@ -90,7 +90,7 @@ router.get('/receipts', bearer, (req, res) => {
   const data2 = new Date(req.query.date_end);
 
   DocsReceiptsDrugstore.aggregate()
-    .match({ date: { $gte: data1, $lt: data2 } })
+    .match({ date: { $gte: data1, $lte: data2 } })
     .sort({ moment_of_changes: -1 })
     .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
     .lookup({
@@ -112,8 +112,8 @@ router.get('/receipts', bearer, (req, res) => {
 });
 
 router.post('/sales', bearer, (req, res) => {
-  console.log('Sales from 1C:');
-  console.log(req.body);
+  // console.log('Sales from 1C:');
+  // console.log(req.body);
 
   const newSaleDoc = new DocsSaleDrugstore(req.body);
   newSaleDoc.save(err => {
@@ -141,7 +141,7 @@ router.get('/sales', bearer, (req, res) => {
   const data2 = new Date(req.query.date_end);
 
   DocsSaleDrugstore.aggregate()
-    .match({ date: { $gte: data1, $lt: data2 } })
+    .match({ date: { $gte: data1, $lte: data2 } })
     .sort({ moment_of_changes: -1 })
     .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
     .lookup({
