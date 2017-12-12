@@ -10,20 +10,10 @@ const docSchema = new Schema({
   user: String,
   moment_of_changes: { type: Date, index: true },
   head: {
-    number_in: String,
-    date_in: Date,
     organization_inn: String,
-    partner: String,
-    partner_inn: String,
-    partner_kpp: String,
-    contract: String,
-    contract_number: String,
-    contract_date: String,
     shop: String,
     type_doc: String,
-    undocumented: Boolean,
-    summa_doc_purchase: Number,
-    summa_doc_retail: Number,
+    summa_doc: Number,
     comment: String
   },
   positions: [
@@ -38,13 +28,14 @@ const docSchema = new Schema({
           barcode: String
         }
       ],
-      count: Number,
-      summa_purchase: Number,
-      summa_retail: Number
+      quantity: Number,
+      price_old: Number,
+      price_new: Number,
+      summa: Number
     }
   ],
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
 });
 
-module.exports = mongoose.model('DocsInvoiceDrugstore', docSchema);
+module.exports = mongoose.model('DocsRevaluationDrugstore', docSchema);
