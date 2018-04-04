@@ -7,7 +7,10 @@
   "rules": {
     "comma-dangle": ["error", "never"],
     "arrow-parens": ["error", "as-needed"],
-    "function-paren-newline": ["error", "never"],
+    "function-paren-newline": ["error", "consistent"],
+    "arrow-body-style": ["error", "always"],
     # "no-console": ["error", { allow: ["warn", "error"] }]
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": <ignorePureComponents> }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
 }

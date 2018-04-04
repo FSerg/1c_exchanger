@@ -6,6 +6,7 @@ import DocsInvoiceDrugstore from '../models/DocsInvoiceDrugstore';
 import DocsReceiptsDrugstore from '../models/DocsReceiptsDrugstore';
 import DocsSaleDrugstore from '../models/DocsSaleDrugstore';
 import DocsRevaluationDrugstore from '../models/DocsRevaluationDrugstore';
+import DocsResortingDrugstore from '../models/DocsResortingDrugstore';
 
 const router = express.Router();
 
@@ -40,6 +41,32 @@ router.get('/invoices', bearer, (req, res) => {
 
   DocsInvoiceDrugstore.aggregate()
     .match({ date: { $gte: data1, $lt: data2 } })
+    .sort({ moment_of_changes: -1 })
+    .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
+    .lookup({
+      from: 'docsinvoicedrugstores',
+      localField: 'originalId',
+      foreignField: '_id',
+      as: 'original_doc'
+    })
+    .project({ 'original_doc.positions': 0 })
+    .exec((err, results) => {
+      if (err) {
+        console.error(err);
+        res.status(400).send({ result: err });
+      } else {
+        res.status(200).send({
+          result: results.map(item => item.original_doc[0])
+        });
+      }
+    });
+});
+
+router.get('/allinvoices', (req, res) => {
+  console.log('GET ALL Invoices!');
+  // console.log(req.query);
+
+  DocsInvoiceDrugstore.aggregate()
     .sort({ moment_of_changes: -1 })
     .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
     .lookup({
@@ -199,6 +226,58 @@ router.get('/revaluations', bearer, (req, res) => {
     .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
     .lookup({
       from: 'docsrevaluationdrugstores',
+      localField: 'originalId',
+      foreignField: '_id',
+      as: 'original_doc'
+    })
+    .project({ 'original_doc.positions': 0 })
+    .exec((err, results) => {
+      if (err) {
+        console.error(err);
+        res.status(400).send({ result: err });
+      } else {
+        res.status(200).send({
+          result: results.map(item => item.original_doc[0])
+        });
+      }
+    });
+});
+
+router.post('/resortings', bearer, (req, res) => {
+  console.log('Resortings from 1C:');
+  console.log(req.body);
+
+  const newResortingDoc = new DocsResortingDrugstore(req.body);
+  newResortingDoc.save(err => {
+    if (err) {
+      console.error(err);
+      res.status(400).send({ result: 'error' });
+    } else {
+      // console.log('Revaluations DONE!');
+      res.status(200).send({ result: 'success' });
+    }
+  });
+});
+
+router.get('/resortings', bearer, (req, res) => {
+  console.log('GET Resortings!');
+  console.log(req.query);
+
+  if (req.query === undefined) {
+    const errorMessage = 'Empty query to get Revaluations from Drugstore!';
+    console.error(errorMessage);
+    res.status(400).send({ result: errorMessage });
+  }
+
+  const data1 = new Date(req.query.date_begin);
+  const data2 = new Date(req.query.date_end);
+
+  DocsResortingDrugstore.aggregate()
+    .match({ date: { $gte: data1, $lte: data2 } })
+    .sort({ moment_of_changes: -1 })
+    .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
+    .lookup({
+      from: 'docsresortingdrugstores',
       localField: 'originalId',
       foreignField: '_id',
       as: 'original_doc'

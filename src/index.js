@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import config from './config/config';
 
 import DocsDrugstoreRoutes from './routes/DocsDrugstoreRoutes';
+import UsersRoutes from './routes/UsersRoutes';
 
 mongoose.Promise = global.Promise;
 mongoose.connect(config.mongoURI, { useMongoClient: true }, err => {
@@ -16,7 +17,10 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
 // routes
+// drugstores
 app.use('/api/drugstores', DocsDrugstoreRoutes);
+// users
+app.use('/api/users', UsersRoutes);
 
 // test route
 app.get('/test', (req, res) => {
