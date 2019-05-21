@@ -13,6 +13,7 @@ const docSchema = new Schema({
     organization_inn: String,
     shop: String,
     summa_doc: Number,
+    summa_discount: { type: Number, default: 0 },
     comment: String
   },
   receipts: [
@@ -39,7 +40,7 @@ const docSchema = new Schema({
       price: Number,
       summa_origianl: Number,
       summa_real: Number,
-      summa_discount: Number
+      summa_discount: { type: Number, default: 0 }
     }
   ],
   createdAt: { type: Date, default: Date.now },
