@@ -7,11 +7,12 @@ import DocsReceiptsDrugstore from '../models/DocsReceiptsDrugstore';
 import DocsSaleDrugstore from '../models/DocsSaleDrugstore';
 import DocsRevaluationDrugstore from '../models/DocsRevaluationDrugstore';
 import DocsResortingDrugstore from '../models/DocsResortingDrugstore';
+import DocsRelocationDrugstore from '../models/DocsRelocationDrugstore';
 
 const router = express.Router();
 
 router.post('/invoices', bearer, (req, res) => {
-  // console.log('Invoices from 1C:');
+  console.log('Invoices from 1C:');
   // console.log(req.body);
 
   const newInvoiceDoc = new DocsInvoiceDrugstore(req.body);
@@ -28,7 +29,7 @@ router.post('/invoices', bearer, (req, res) => {
 
 router.get('/invoices', bearer, (req, res) => {
   console.log('GET Invoices!');
-  console.log(req.query);
+  // console.log(req.query);
 
   if (req.query === undefined) {
     const errorMessage = 'Empty query to get Invoices from Drugstore!';
@@ -89,7 +90,7 @@ router.get('/allinvoices', (req, res) => {
 });
 
 router.post('/receipts', bearer, (req, res) => {
-  // console.log('Receipts from 1C:');
+  console.log('Receipts from 1C:');
   // console.log(req.body);
 
   const newReceiptsDoc = new DocsReceiptsDrugstore(req.body);
@@ -106,7 +107,7 @@ router.post('/receipts', bearer, (req, res) => {
 
 router.get('/receipts', bearer, (req, res) => {
   console.log('GET Receipts!');
-  console.log(req.query);
+  // console.log(req.query);
 
   if (req.query === undefined) {
     const errorMessage = 'Empty query to get Receipts from Drugstore!';
@@ -140,7 +141,7 @@ router.get('/receipts', bearer, (req, res) => {
 });
 
 router.post('/sales', bearer, (req, res) => {
-  // console.log('Sales from 1C:');
+  console.log('Sales from 1C:');
   // console.log(req.body);
 
   const newSaleDoc = new DocsSaleDrugstore(req.body);
@@ -157,7 +158,7 @@ router.post('/sales', bearer, (req, res) => {
 
 router.get('/sales', bearer, (req, res) => {
   console.log('GET Sales!');
-  console.log(req.query);
+  // console.log(req.query);
 
   if (req.query === undefined) {
     const errorMessage = 'Empty query to get Sales from Drugstore!';
@@ -193,7 +194,7 @@ router.get('/sales', bearer, (req, res) => {
 
 router.post('/revaluations', bearer, (req, res) => {
   console.log('Revaluations from 1C:');
-  console.log(req.body);
+  // console.log(req.body);
 
   const newRevaluationDoc = new DocsRevaluationDrugstore(req.body);
   newRevaluationDoc.save(err => {
@@ -209,7 +210,7 @@ router.post('/revaluations', bearer, (req, res) => {
 
 router.get('/revaluations', bearer, (req, res) => {
   console.log('GET Revaluations!');
-  console.log(req.query);
+  // console.log(req.query);
 
   if (req.query === undefined) {
     const errorMessage = 'Empty query to get Revaluations from Drugstore!';
@@ -245,7 +246,7 @@ router.get('/revaluations', bearer, (req, res) => {
 
 router.post('/resortings', bearer, (req, res) => {
   console.log('Resortings from 1C:');
-  console.log(req.body);
+  // console.log(req.body);
 
   const newResortingDoc = new DocsResortingDrugstore(req.body);
   newResortingDoc.save(err => {
@@ -261,10 +262,10 @@ router.post('/resortings', bearer, (req, res) => {
 
 router.get('/resortings', bearer, (req, res) => {
   console.log('GET Resortings!');
-  console.log(req.query);
+  // console.log(req.query);
 
   if (req.query === undefined) {
-    const errorMessage = 'Empty query to get Revaluations from Drugstore!';
+    const errorMessage = 'Empty query to get Resortings from Drugstore!';
     console.error(errorMessage);
     res.status(400).send({ result: errorMessage });
   }
@@ -278,6 +279,59 @@ router.get('/resortings', bearer, (req, res) => {
     .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
     .lookup({
       from: 'docsresortingdrugstores',
+      localField: 'originalId',
+      foreignField: '_id',
+      as: 'original_doc'
+    })
+    .project({ 'original_doc.positions': 0 })
+    .exec((err, results) => {
+      if (err) {
+        console.error(err);
+        res.status(400).send({ result: err });
+      } else {
+        res.status(200).send({
+          result: results.map(item => item.original_doc[0])
+        });
+      }
+    });
+});
+
+
+router.post('/relocations', bearer, (req, res) => {
+  console.log('Relocations from 1C:');
+  // console.log(req.body);
+
+  const newRelocDoc = new DocsRelocationDrugstore(req.body);
+  newRelocDoc.save(err => {
+    if (err) {
+      console.error(err);
+      res.status(400).send({ result: 'error' });
+    } else {
+      // console.log('Sales DONE!');
+      res.status(200).send({ result: 'success' });
+    }
+  });
+});
+
+router.get('/relocations', bearer, (req, res) => {
+  console.log('GET Relocations!');
+  // console.log(req.query);
+
+  if (req.query === undefined) {
+    const errorMessage = 'Empty query to get Relocations from Drugstore!';
+    console.error(errorMessage);
+    res.status(400).send({ result: errorMessage });
+  }
+
+  const data1 = new Date(req.query.date_begin);
+  const data2 = new Date(req.query.date_end);
+
+  DocsRelocationDrugstore.aggregate()
+    .match({ date: { $gte: data1, $lte: data2 } })
+    .sort({ moment_of_changes: -1 })
+    .group({ originalId: { $first: '$_id' }, _id: '$id_doc' })
+    .lookup({
+      from: 'docsrelocationdrugstores',
       localField: 'originalId',
       foreignField: '_id',
       as: 'original_doc'
