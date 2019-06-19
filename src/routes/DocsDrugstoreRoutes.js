@@ -297,7 +297,7 @@ router.get('/resortings', bearer, (req, res) => {
 });
 
 
-router.post('/relocations', bearer, (req, res) => {
+router.post('/movings', bearer, (req, res) => {
   console.log('Relocations from 1C:');
   // console.log(req.body);
 
@@ -313,7 +313,7 @@ router.post('/relocations', bearer, (req, res) => {
   });
 });
 
-router.get('/relocations', bearer, (req, res) => {
+router.get('/movings', bearer, (req, res) => {
   console.log('GET Relocations!');
   // console.log(req.query);
 
