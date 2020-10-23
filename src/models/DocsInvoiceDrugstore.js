@@ -31,6 +31,7 @@ const docSchema = new Schema({
       _id: false,
       product: String,
       product_code: String,
+      product_id: String,
       vital: Boolean,
       marked: Boolean,
       ean: [
@@ -42,6 +43,8 @@ const docSchema = new Schema({
       count: Number,
       summa_purchase: Number,
       summa_retail: Number,
+      tax: String,
+      summa_tax: Number,
     },
   ],
   createdAt: { type: Date, default: Date.now },
