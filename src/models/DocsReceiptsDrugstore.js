@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const { Schema } = mongoose;
 const docSchema = new Schema({
@@ -14,37 +14,38 @@ const docSchema = new Schema({
     shop: String,
     summa_doc: Number,
     summa_discount: { type: Number, default: 0 },
-    comment: String
+    comment: String,
   },
   receipts: [
     {
       _id: false,
       revenue_name: String,
       is_cash: Boolean,
-      summa: Number
-    }
+      summa: Number,
+    },
   ],
   positions: [
     {
       _id: false,
       product: String,
       product_code: String,
+      product_id: String,
       vital: Boolean,
       ean: [
         {
           _id: false,
-          barcode: String
-        }
+          barcode: String,
+        },
       ],
       quantity: Number,
       price: Number,
       summa_origianl: Number,
       summa_real: Number,
-      summa_discount: { type: Number, default: 0 }
-    }
+      summa_discount: { type: Number, default: 0 },
+    },
   ],
   createdAt: { type: Date, default: Date.now },
-  updatedAt: { type: Date, default: Date.now }
+  updatedAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('DocsReceiptsDrugstore', docSchema);
+module.exports = mongoose.model("DocsReceiptsDrugstore", docSchema);
