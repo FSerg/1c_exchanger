@@ -42,6 +42,8 @@ const docSchema = new Schema({
       summa_origianl: Number,
       summa_real: Number,
       summa_discount: { type: Number, default: 0 },
+      tax: String,
+      summa_tax: Number,
     },
   ],
   createdAt: { type: Date, default: Date.now },

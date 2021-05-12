@@ -179,7 +179,7 @@ router.get("/sales", bearer, (req, res) => {
       foreignField: "_id",
       as: "original_doc",
     })
-    .project({ "original_doc.positions": 0 })
+    // .project({ "original_doc.positions": 0 })
     .exec((err, results) => {
       if (err) {
         console.error(err);
@@ -283,7 +283,7 @@ router.get("/resortings", bearer, (req, res) => {
       foreignField: "_id",
       as: "original_doc",
     })
-    .project({ "original_doc.positions": 0 })
+    // .project({ "original_doc.positions": 0 })
     .exec((err, results) => {
       if (err) {
         console.error(err);
@@ -335,7 +335,7 @@ router.get("/movings", bearer, (req, res) => {
       foreignField: "_id",
       as: "original_doc",
     })
-    .project({ "original_doc.positions": 0 })
+    // .project({ "original_doc.positions": 0 })
     .exec((err, results) => {
       if (err) {
         console.error(err);
